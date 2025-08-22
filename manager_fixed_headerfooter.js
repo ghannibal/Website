@@ -1,9 +1,15 @@
-class FixedNav extends HTMLElement {
+class FixedHeader extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta name="color-scheme" content="light dark">
+            <link rel="stylesheet" href="css/pico.min.css">
+            <link rel="stylesheet" href="css/pico.colors.min.css">
+            <title>Website - Glenda Hannibal</title>
             <nav class="container">
                 <ul>
-                    <li><a href="page_landing.html" class="contrast">Home</a></li>
+                    <li><a href="page_landing.html" class="contrast"><strong>Home</strong></a></li>
                 </ul>
                 <ul>
                     <li><a href="page_research.html" class="contrast">Research</a></li>
@@ -26,12 +32,12 @@ class FixedFooter extends HTMLElement {
             <footer class="container">
             <hr />
                 <small>
-                <p>© 2025 Glenda Hannibal. All Rights Reserved.</p>
+                © 2025 Glenda Hannibal. All Rights Reserved.
                 </small>
             </footer>
                 `
     }
 }
 
-customElements.define('fixed-nav', FixedNav)
+customElements.define('fixed-header', FixedHeader)
 customElements.define('fixed-footer', FixedFooter)
