@@ -32,7 +32,7 @@ class FixedFooter extends HTMLElement {
             <footer class="container">
             <hr />
                 <small>
-                © 2025 Glenda Hannibal. All Rights Reserved.
+                <p>&copy; 2025 Glenda Hannibal. All Rights Reserved.</p>
                 </small>
             </footer>
                 `
