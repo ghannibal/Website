@@ -1,5 +1,5 @@
 async function loadBib() {
-    const url = "https://raw.githubusercontent.com/ghannibal/website/main/publications.bib";
+    const url = "https://raw.githubusercontent.com/GlendaHannibal/Website/main/publications.bib";
     const res = await fetch(url);
     const text = await res.text();
     const entries = bibtexParse.toJSON(text);
