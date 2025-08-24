@@ -25,29 +25,38 @@ function parseBibTeX(text) {
 // --- Format entry as HTML ---
 function formatEntry(entry) {
     const f = entry.fields;
+
+    // Base text
+    let text;
     switch (entry.entryType) {
         case "article":
-            return `${f.author || ""}. <em>${f.title || ""}</em>. ${f.journal || ""}, ${f.year || ""}.`;
+            text = `${f.author || ""}. <em>${f.title || ""}</em>. ${f.journal || ""}, ${f.year || ""}.`;
+            break;
         case "book":
-            return `${f.author || ""}. <em>${f.title || ""}</em>. ${f.publisher || ""}, ${f.year || ""}.`;
+            text = `${f.author || ""}. <em>${f.title || ""}</em>. ${f.publisher || ""}, ${f.year || ""}.`;
+            break;
         case "inproceedings":
-            return `${f.author || ""}. <em>${f.title || ""}</em>. In ${f.booktitle || ""}, ${f.year || ""}.`;
+            text = `${f.author || ""}. <em>${f.title || ""}</em>. In ${f.booktitle || ""}, ${f.year || ""}.`;
+            break;
         default:
-            return `${f.author || ""}. <em>${f.title || ""}</em>. ${f.year || ""}.`;
+            text = `${f.author || ""}. <em>${f.title || ""}</em>. ${f.year || ""}.`;
     }
+
+    // Add link if DOI or URL exists
+    if (f.doi) {
+        text += ` <a href="https://doi.org/${f.doi}" target="_blank">[DOI]</a>`;
+    } else if (f.url) {
+        text += ` <a href="${f.url}" target="_blank">[Link]</a>`;
+    }
+
+    return text;
 }
 
 // --- Render publications grouped by type ---
 function renderPublications(entries) {
     const container = document.getElementById("publications");
 
-    // Group by type
-    const groups = {
-        article: [],
-        inproceedings: [],
-        book: [],
-        misc: []
-    };
+    const groups = { article: [], inproceedings: [], book: [], misc: [] };
 
     entries.forEach(e => {
         if (groups[e.entryType]) {
@@ -57,17 +66,16 @@ function renderPublications(entries) {
         }
     });
 
-    // Sort each group by year (desc)
     for (const type in groups) {
         groups[type].sort((a, b) => (b.fields.year || 0) - (a.fields.year || 0));
     }
 
-    // Render groups
-    if (groups.article.length) {
+    function makeSection(title, items) {
+        if (!items.length) return;
         const sec = document.createElement("div");
-        sec.innerHTML = "<h2>Journal Articles</h2>";
+        sec.innerHTML = `<h2>${title}</h2>`;
         const ul = document.createElement("ul");
-        groups.article.forEach(e => {
+        items.forEach(e => {
             const li = document.createElement("li");
             li.innerHTML = formatEntry(e);
             ul.appendChild(li);
@@ -76,44 +84,10 @@ function renderPublications(entries) {
         container.appendChild(sec);
     }
 
-    if (groups.inproceedings.length) {
-        const sec = document.createElement("div");
-        sec.innerHTML = "<h2>Conference Papers</h2>";
-        const ul = document.createElement("ul");
-        groups.inproceedings.forEach(e => {
-            const li = document.createElement("li");
-            li.innerHTML = formatEntry(e);
-            ul.appendChild(li);
-        });
-        sec.appendChild(ul);
-        container.appendChild(sec);
-    }
-
-    if (groups.book.length) {
-        const sec = document.createElement("div");
-        sec.innerHTML = "<h2>Books</h2>";
-        const ul = document.createElement("ul");
-        groups.book.forEach(e => {
-            const li = document.createElement("li");
-            li.innerHTML = formatEntry(e);
-            ul.appendChild(li);
-        });
-        sec.appendChild(ul);
-        container.appendChild(sec);
-    }
-
-    if (groups.misc.length) {
-        const sec = document.createElement("div");
-        sec.innerHTML = "<h2>Other</h2>";
-        const ul = document.createElement("ul");
-        groups.misc.forEach(e => {
-            const li = document.createElement("li");
-            li.innerHTML = formatEntry(e);
-            ul.appendChild(li);
-        });
-        sec.appendChild(ul);
-        container.appendChild(sec);
-    }
+    makeSection("Journal Articles", groups.article);
+    makeSection("Conference Papers", groups.inproceedings);
+    makeSection("Books", groups.book);
+    makeSection("Other", groups.misc);
 }
 
 // --- Load publication.bib ---
