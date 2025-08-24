@@ -1,35 +1,51 @@
 async function loadBib() {
-    const url = "https://raw.githubusercontent.com/GlendaHannibal/Website/main/publications.bib";
+    // Replace with the *raw* URL of your .bib file from GitHub
+    const url = "https://raw.githubusercontent.com/ghannibal/Website/main/publications.bib";
+
     const res = await fetch(url);
+    if (!res.ok) {
+        document.getElementById("pubs").innerHTML = "Failed to load .bib file.";
+        return;
+    }
+
     const text = await res.text();
     const entries = bibtexParse.toJSON(text);
 
     const container = document.getElementById("pubs");
-    entries.forEach(entry => {
-        const div = document.createElement("div");
-        div.className = "pub";
 
+    entries.forEach(entry => {
         const title = entry.entryTags.title || "Untitled";
         const authors = entry.entryTags.author || "";
         const year = entry.entryTags.year || "";
 
-        div.innerHTML = `<strong>${title}</strong><br>${authors} (${year})`;
+        // Create article card
+        const article = document.createElement("article");
 
-        const bibButton = document.createElement("button");
-        bibButton.textContent = "Show BibTeX";
+        const p = document.createElement("p");
+        p.innerHTML = `<strong>${title}</strong><br>${authors} (${year})`;
+
+        // Toggle button
+        const button = document.createElement("button");
+        button.textContent = "Show BibTeX";
+
+        // Extract raw BibTeX block
+        const regex = new RegExp("@[^{]+{" + entry.citationKey + "[\\s\\S]*?\\}\\s*(?=\\n|$)", "m");
+        const match = text.match(regex);
+        const bibtexBlock = match ? match[0] : "";
+
         const pre = document.createElement("pre");
-        pre.className = "bibtex";
-        pre.textContent = entry.citationKey + " = " + JSON.stringify(entry.entryTags, null, 2);
+        pre.textContent = bibtexBlock;
 
-        bibButton.onclick = () => {
+        button.onclick = () => {
             pre.style.display = pre.style.display === "block" ? "none" : "block";
+            button.textContent = pre.style.display === "block" ? "Hide BibTeX" : "Show BibTeX";
         };
 
-        div.appendChild(document.createElement("br"));
-        div.appendChild(bibButton);
-        div.appendChild(pre);
+        article.appendChild(p);
+        article.appendChild(button);
+        article.appendChild(pre);
 
-        container.appendChild(div);
+        container.appendChild(article);
     });
 }
 
