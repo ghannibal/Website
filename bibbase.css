@@ -62,9 +62,8 @@
 }
 
 .bibbase_group {
-    /*background-color: #D0D0E0;*/
-    /*background-color: #70707040; -->DEFULT */
-    background-color: #12467d40;
+    /* background-color: #D0D0E0; */
+    background-color: #70707040;
     /* mix-blend-mode: luminosity; */
     font-style: italic;
     font-size: larger;
@@ -88,6 +87,7 @@ img.bibbase_icon {
     max-height: 16px;
     vertical-align: text-top;
 
+
     filter: url("data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'><filter%20id='grayscale'><feColorMatrix%20type='matrix'%20values='0.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200%200%200%201%200'/></filter></svg>#grayscale");
     /* Firefox 3.5+ */
     filter: grayscale(100%);
@@ -101,7 +101,6 @@ img.bibbase_icon {
     /* IE6+ */
 }
 
-
 img.bibbase_icon:hover {
     filter: none;
     -webkit-filter: grayscale(0);
@@ -109,9 +108,9 @@ img.bibbase_icon:hover {
 
 
 
-/*span.bibbase_icon_text {*/
-/*display: none;*/
-/*}*/
+/* span.bibbase_icon_text { */
+/*     display: none; */
+/* } */
 
 .bibbase_code {
     width: 80%
