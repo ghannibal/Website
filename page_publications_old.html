@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en" class="pico-background-slate-950">
+
+<head>
+    <fixed-header></fixed-header>
+</head>
+
+<body>
+    <header></header>
+    <main class=" container">
+        <h1>Publications</h1>
+        <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
+        <script type="text/javascript" src="/Users/glendahannibal/GitHub/Website/manager_bibtex.js"></script>
+        <script src="manager_bibtex.js" type="text/javascript" charset="utf-8"></script>
+        <bibtex src="publications.bib"></bibtex>
+
+        <script>
+            $(function () {
+                $("#Fontselector").on("change", function () {
+                    var font = $("#Fontselector option:selected").text();
+                    console.log(font);
+
+                    $('.title.fonters').each(function () {
+                        $(this).css("font-family", font);
+                    });
+                });
+            });
+            function reset() {
+                $("select").each(function () {
+                    localStorage.setItem($(this).attr("id"), "");
+                    $(this).val("");
+                });
+                $("#searchbar").val("");
+                $("#searchbar").trigger('change');
+            }
+        </script>
+
+        <style>
+            h1.YEAR {
+                font-size: 25px;
+                font-weight: bold;
+                display: inline;
+                margin-left: 0px;
+            }
+        </style>
+
+        <div class="searchbar">
+            <div style="left">
+                <input type="text" class="bibtex_search form-control" id="searchbar" placeholder="Search">
+            </div>
+        </div>
+
+        <div class="bibtex_structure">
+            <div class="group year" extra="ASC number">
+                <!--<a href="#top" style="display: inline">[return to top]</a>-->
+                <div style="padding-bottom:15px;"></div>
+                <div class="templates"></div>
+            </div>
+        </div>
+        </div>
+
+        <div id="bibtex_display">
+            <div class="bibtex_template" style="display: none;">
+                <div>
+                    </span class="if author"><span class="author"></span>
+                    <span class="if year">(<span class="year"></span>).</span>
+                    <span class="if title">
+                        <a class="bibtexVar" href="http://www.website.com/~demo/papers/+BIBTEXKEY+.pdf"
+                            extra="BIBTEXKEY">
+                            <span style="text-decoration: underline;" class="title"></span>
+                        </a>.</span>
+                    <span class="if journal"><em><span class="journal"></span></em>,</span>
+                    <span class="if booktitle">In <em><span class="booktitle"></span></em>,</span>
+                    <span class="if volume">vol. <span class="volume"></span>,</span>
+                    <span class="if number">nr. <span class="number"></span>,</span>
+                    <span class="if pages">pp. <span class="pages"></span>,</span>
+                    <span class="if publisher"><span class="publisher"></span>.</span>
+                    <span class="if doi">DOI: <span class="doi"></span>.</span>
+                    <span class="if note"><span class="note"></span>.</span>
+                </div>
+                <br>
+                <a class="bibtexVar" data-toggle="collapse" href="#bib+BIBTEXKEY+" aria-expanded="false"
+                    aria-controls="bib+BIBTEXKEY+" extra="BIBTEXKEY" bibtexjs-css-escape>
+                    [bib]
+                </a>
+            </div>
+            <div class="bibtexVar collapse" id="bib+BIBTEXKEY+" extra="BIBTEXKEY">
+                <div class="well">
+                    <pre><span class="bibtexraw noread"></span></pre>
+                </div>
+            </div>
+            <div style="display:none"><span class="bibtextype"></span></div>
+        </div>
+        </div>
+        </div>
+    </main>
+    <fixed-footer></fixed-footer>
+    <script src="./manager_fixed_headerfooter.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+
+</html>

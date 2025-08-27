@@ -14,7 +14,7 @@ class FixedHeader extends HTMLElement {
                 <ul>
                     <li><a href="page_research.html" class="contrast">Research</a></li>
                     <li><a href="page_publications.html" class="contrast">Publications</a></li>
-                    <li><a href="page_presentations.html" class="contrast">Presentations</a></li>
+                    <li><a href="page_presentations" class="contrast">Presentations</a></li>
                     <li><a href="pages_service.html" class="contrast">Service</a></li>
                     <li><a href="page_teaching.html" class="contrast">Teaching</a></li>
                     <li><a href="page_outreach.html" class="contrast">Outreach</a></li>
