@@ -4,8 +4,8 @@ class FixedHeader extends HTMLElement {
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <meta name="color-scheme" content="light dark">
-            <link rel="stylesheet" href="css/pico.min.css">
-            <link rel="stylesheet" href="css/pico.colors.min.css">
+            <link rel="stylesheet" href="pico_css/pico.min.css">
+            <link rel="stylesheet" href="pico_css/pico.colors.min.css">
             <title>Website - Glenda Hannibal</title>
             <nav class="container">
                 <ul>
