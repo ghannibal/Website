@@ -1,9 +1,6 @@
 <!doctype html>
 <html lang="en" class="pico-background-slate-950">
 
-<!--<link rel="stylesheet" href="pico_css/pico.min.css">
-<link rel="stylesheet" href="pico_css/pico.colors.min.css">-->
-
 <head>
     <fixed-header></fixed-header>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -29,10 +26,8 @@
             $("#searchbar").trigger('change');
         }
     </script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="pico_css/pico.min.css">
     <link rel="stylesheet" href="pico_css/pico.colors.min.css">
-    <!--<link rel="stylesheet" href="custom_pico.scss">-->
 </head>
 
 <body>
@@ -49,9 +44,10 @@
         </div>
 
         <div class="bibtex_structure">
-            <div class="group year" extra="ASC number">
-                <div style="padding-bottom:10px;"></div>
+            <div class="group year" extra="DESC number">
+                <h2 class="title"></h2>  <!-- renders the year as an H2 instead of the default H1 -->
                 <div class="templates"></div>
+                <div style="padding-bottom:10px;"></div>
             </div>
         </div>
 
@@ -74,20 +70,15 @@
                     <span class="if doi">DOI: <span class="doi"></span>.</span>
                     <span class="if note"><span class="note"></span>.</span>
                     <br>
-                    <a class="bibtexVar" data-toggle="collapse" href="#bib+BIBTEXKEY+" aria-expanded="false"
-                        aria-controls="bib+BIBTEXKEY+" extra="BIBTEXKEY" bibtexjs-css-escape>
-                        [bib]
-                    </a>
+                    <details>
+                        <summary>[bib]</summary>
+                        <p>
+                            <pre><span class="bibtexraw noread"</span></pre>
+                        </p>
+                    </details>
                 </div>
-                <div class="bibtexVar collapse" id="bib+BIBTEXKEY+" extra="BIBTEXKEY">
-                    <div class="well">
-                        <pre><span class="bibtexraw noread"></span></pre>
-                    </div>
-                </div>
-                <div style="display:none"><span class="bibtextype"></span></div>
                 <br>
             </div>
-
         </div>
     </main>
     <div class="container">
