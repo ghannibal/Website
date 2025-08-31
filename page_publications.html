@@ -28,6 +28,13 @@
     </script>
     <link rel="stylesheet" href="pico_css/pico.min.css">
     <link rel="stylesheet" href="pico_css/pico.colors.min.css">
+    
+    <style>
+        details > summary::after, /* Latest Chrome, Edge, Firefox */ 
+        details > summary::-webkit-details-marker /* Safari */ {
+            display: none;
+        }
+    </style>
 </head>
 
 <body>
@@ -71,7 +78,7 @@
                     <span class="if note"><span class="note"></span>.</span>
                     <br>
                     <details>
-                        <summary>[bib]</summary>
+                        <summary style="display: inline"><a>[bib]</a></summary>
                         <p>
                         <pre><span class="bibtexraw noread"</span></pre>
                         </p>
