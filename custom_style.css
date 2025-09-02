@@ -1,0 +1,9 @@
+:root {
+    --pico-border-radius: 1.5rem;
+    --pico-typography-spacing-vertical: 1.5rem;
+    --pico-form-element-spacing-vertical: 1rem;
+    --pico-form-element-spacing-horizontal: 1.25rem;
+    --pico-font-family: Pacifico;
+    --pico-font-weight: 300;
+    --pico-typography-spacing-vertical: 0.5rem;
+}
