@@ -5,7 +5,28 @@
     --pico-form-element-spacing-vertical: 0.5rem;
     --pico-form-element-spacing-horizontal: 0.5rem;
     /*Font Style*/
-    --pico-font-family: "Roboto", sans-serif;
+    --pico-font-family: "Sofia", sans-serif;
     --pico-font-weight: 400;
     --pico-typography-spacing-vertical: 0.5rem;
+}
+
+/* Dark color scheme (Forced) */
+/* Enabled if forced with data-theme="dark" */
+[data-theme="dark"] {
+    color-scheme: dark;
+    --pico-background-color: rgb(19, 22.5, 30.5);
+    --pico-color: #5d8be1;
+    --pico-text-selection-color: rgba(1, 170, 255, 0.1875);
+    --pico-muted-color: #3d5b90;
+    --pico-muted-border-color: #c8d79b;
+    --pico-primary: #01aaff;
+    --pico-primary-background: #18ad01;
+    --pico-primary-border: var(--pico-primary-background);
+    --pico-primary-underline: rgba(1, 170, 255, 0.5);
+    --pico-primary-hover: #79c0ff;
+    --pico-primary-hover-background: #017fc0;
+    --pico-primary-hover-border: var(--pico-primary-hover-background);
+    --pico-primary-hover-underline: var(--pico-primary-hover);
+    --pico-primary-focus: rgba(1, 170, 255, 0.375);
+    --pico-primary-inverse: #fff;
 }
