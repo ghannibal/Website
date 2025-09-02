@@ -1,9 +1,11 @@
 :root {
-    --pico-border-radius: 1.5rem;
+    /*Button Style*/
+    --pico-border-radius: 0.25rem;
     --pico-typography-spacing-vertical: 1.5rem;
-    --pico-form-element-spacing-vertical: 1rem;
-    --pico-form-element-spacing-horizontal: 1.25rem;
-    --pico-font-family: Pacifico;
-    --pico-font-weight: 300;
+    --pico-form-element-spacing-vertical: 0.5rem;
+    --pico-form-element-spacing-horizontal: 0.5rem;
+    /*Font Style*/
+    --pico-font-family: "Roboto", sans-serif;
+    --pico-font-weight: 400;
     --pico-typography-spacing-vertical: 0.5rem;
 }

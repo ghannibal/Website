@@ -6,6 +6,7 @@ class FixedHeader extends HTMLElement {
             <meta name="color-scheme" content="light dark">
             <link rel="stylesheet" href="pico_css/pico.min.css">
             <link rel="stylesheet" href="pico_css/pico.colors.min.css">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
             <link rel="stylesheet" href="custom_style.css">
             <title>Website - Glenda Hannibal</title>
             <nav class="container">
