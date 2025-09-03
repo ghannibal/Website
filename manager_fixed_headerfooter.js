@@ -18,6 +18,7 @@ class FixedHeader extends HTMLElement {
                     <li><a href="page_projects.html" class="contrast">Projects</a></li>
                     <li><a href="page_talks.html" class="contrast">Talks</a></li>
                     <li><a href="pages_service.html" class="contrast">Service</a></li>
+                    <li><a href="page_supervision.html" class="contrast">Supervision</a></li>
                     <li><a href="page_teaching.html" class="contrast">Teaching</a></li>
                     <li><a href="page_outreach.html" class="contrast">Outreach</a></li>
                     <li><a href="page_bio.html" class="contrast">Bio</a></li>
@@ -34,7 +35,9 @@ class FixedFooter extends HTMLElement {
             <footer class="container">
             <hr />
                 <small>
-                <p>&copy; 2025 Glenda Hannibal. All Rights Reserved.</p>
+                <p>
+                    &copy; 2025 Glenda Hannibal. All Rights Reserved.
+                </p>
                 </small>
             </footer>
                 `

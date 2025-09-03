@@ -15,19 +15,19 @@
 [data-theme="dark"] {
     color-scheme: dark;
     /*Overall Color Style*/
-    --pico-background-color: rgb(0, 0, 0);
-    --pico-color: #666666;
-    --pico-text-selection-color: rgb(255, 255, 255);
-    --pico-muted-color: #ffffff;
-    --pico-muted-border-color: #ffffff;
-    --pico-primary: #00bbff;
-    --pico-primary-background: #000000;
+    --pico-background-color: rgb(4, 18, 29);
+    --pico-muted-color: #02659A;
+    --pico-primary: #02659A;
     --pico-primary-border: var(--pico-primary-background);
-    --pico-primary-underline: rgb(0, 0, 0);
-    --pico-primary-hover: #696969;
-    --pico-primary-hover-background: #000000;
+    --pico-primary-underline: rgb(2, 101, 154);
+    --pico-primary-hover: #02659A;
     --pico-primary-hover-border: var(--pico-primary-hover-background);
     --pico-primary-hover-underline: var(--pico-primary-hover);
-    --pico-primary-focus: rgb(0, 0, 0);
-    --pico-primary-inverse: #fff;
+    --pico-color: #ffffff;
+    --pico-h1-color: #ffffff;
+    --pico-h2-color: #ffffff;
+    --pico-h3-color: #02659A;
+    --pico-h4-color: #ffffff;
+    --pico-h5-color: #ffffff;
+    --pico-h6-color: #ffffff;
 }
