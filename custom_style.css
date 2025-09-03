@@ -10,6 +10,15 @@
     --pico-typography-spacing-vertical: 0.5rem;
 }
 
+a {
+    --pico-text-decoration: none;
+}
+
+a.secondary,
+a.contrast {
+    --pico-text-decoration: none;
+}
+
 /* Dark color scheme (Forced) */
 /* Enabled if forced with data-theme="dark" */
 [data-theme="dark"] {
@@ -17,10 +26,10 @@
     /*Overall Color Style*/
     --pico-background-color: rgb(4, 18, 29);
     --pico-muted-color: #02659A;
-    --pico-primary: #02659A;
+    --pico-primary: #51B4FF;
     --pico-primary-border: var(--pico-primary-background);
-    --pico-primary-underline: rgb(2, 101, 154);
-    --pico-primary-hover: #02659A;
+    --pico-primary-underline: rgb(81, 180, 255);
+    --pico-primary-hover: #51B4FF;
     --pico-primary-hover-border: var(--pico-primary-hover-background);
     --pico-primary-hover-underline: var(--pico-primary-hover);
     --pico-color: #ffffff;
@@ -30,4 +39,12 @@
     --pico-h4-color: #ffffff;
     --pico-h5-color: #ffffff;
     --pico-h6-color: #ffffff;
+    --pico-accordion-border-color: var(--pico-muted-border-color);
+    --pico-accordion-active-summary-color: var(--pico-primary-hover);
+    --pico-accordion-close-summary-color: var(--pico-color);
+    --pico-accordion-open-summary-color: var(--pico-muted-color);
+    --pico-card-background-color: var(--pico-background-color);
+    --pico-card-border-color: var(--pico-muted-border-color);
+    --pico-card-box-shadow: var(--pico-box-shadow);
+    --pico-card-sectioning-background-color: rgb(251, 251.5, 252.25);
 }
