@@ -24,18 +24,18 @@ a.contrast {
 [data-theme="dark"] {
     color-scheme: dark;
     /*Overall Color Style*/
-    --pico-background-color: rgb(4, 18, 29);
-    --pico-muted-color: #02659A;
-    --pico-primary: #51B4FF;
+    --pico-background-color: rgb(0, 0, 0);
+    --pico-muted-color: #0000ff;
+    --pico-primary: #0000ff;
     --pico-primary-border: var(--pico-primary-background);
-    --pico-primary-underline: rgb(81, 180, 255);
-    --pico-primary-hover: #51B4FF;
+    --pico-primary-underline: rgb(0, 0, 255);
+    --pico-primary-hover: #0000ff;
     --pico-primary-hover-border: var(--pico-primary-hover-background);
     --pico-primary-hover-underline: var(--pico-primary-hover);
     --pico-color: #ffffff;
     --pico-h1-color: #ffffff;
     --pico-h2-color: #ffffff;
-    --pico-h3-color: #02659A;
+    --pico-h3-color: #5f5f5f;
     --pico-h4-color: #ffffff;
     --pico-h5-color: #ffffff;
     --pico-h6-color: #ffffff;
