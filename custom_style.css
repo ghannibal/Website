@@ -1,13 +1,21 @@
 :root {
+    /*Font Style*/
+    --pico-font-family: "Courier New";
+    --pico-line-height: 1.5;
+    --pico-font-weight: 400;
+    --pico-font-size: 100%;
+    --pico-text-underline-offset: 0.1rem;
+    /*Navigation*/
+    --pico-nav-element-spacing-vertical: 1rem;
+    --pico-nav-element-spacing-horizontal: 0.5rem;
+    --pico-nav-link-spacing-vertical: 0.5rem;
+    --pico-nav-link-spacing-horizontal: 0.5rem;
+    --pico-spacing: 0.5rem;
     /*Button Style*/
     --pico-border-radius: 0.25rem;
     --pico-typography-spacing-vertical: 1.5rem;
     --pico-form-element-spacing-vertical: 0.5rem;
     --pico-form-element-spacing-horizontal: 0.5rem;
-    /*Font Style*/
-    --pico-font-family: "Roboto", sans-serif;
-    --pico-font-weight: 400;
-    --pico-typography-spacing-vertical: 0.5rem;
 }
 
 a {
@@ -23,7 +31,7 @@ a.contrast {
 /* Enabled if forced with data-theme="dark" */
 [data-theme="dark"] {
     color-scheme: dark;
-    /*Overall Color Style*/
+    /*Primary Color Style*/
     --pico-background-color: rgb(0, 0, 0);
     --pico-muted-color: #0000ff;
     --pico-primary: #0000ff;
@@ -35,16 +43,40 @@ a.contrast {
     --pico-color: #ffffff;
     --pico-h1-color: #ffffff;
     --pico-h2-color: #ffffff;
-    --pico-h3-color: #5f5f5f;
+    --pico-h3-color: #808080;
     --pico-h4-color: #ffffff;
     --pico-h5-color: #ffffff;
     --pico-h6-color: #ffffff;
-    --pico-accordion-border-color: var(--pico-muted-border-color);
-    --pico-accordion-active-summary-color: var(--pico-primary-hover);
-    --pico-accordion-close-summary-color: var(--pico-color);
-    --pico-accordion-open-summary-color: var(--pico-muted-color);
-    --pico-card-background-color: var(--pico-background-color);
+    /*Secondary Color Style*/
+    --pico-secondary: #969eaf;
+    --pico-secondary-background: #525f7a;
+    --pico-secondary-border: var(--pico-secondary-background);
+    --pico-secondary-underline: rgba(150, 158, 175, 0.5);
+    --pico-secondary-hover: #b3b9c5;
+    --pico-secondary-hover-background: #5d6b89;
+    --pico-secondary-hover-border: var(--pico-secondary-hover-background);
+    --pico-secondary-hover-underline: var(--pico-secondary-hover);
+    --pico-secondary-focus: rgba(144, 158, 190, 0.25);
+    --pico-secondary-inverse: #fff;
+    /*Constrast Color Style*/
+    --pico-contrast: #dfe3eb;
+    --pico-contrast-background: #eff1f4;
+    --pico-contrast-border: var(--pico-contrast-background);
+    --pico-contrast-underline: rgba(223, 227, 235, 0.5);
+    --pico-contrast-hover: #fff;
+    --pico-contrast-hover-background: #fff;
+    --pico-contrast-hover-border: var(--pico-contrast-hover-background);
+    --pico-contrast-hover-underline: var(--pico-contrast-hover);
+    --pico-contrast-focus: rgba(207, 213, 226, 0.25);
+    --pico-contrast-inverse: #000;
+    /*Card Color Style*/
+    --pico-card-background-color: #808080;
     --pico-card-border-color: var(--pico-muted-border-color);
     --pico-card-box-shadow: var(--pico-box-shadow);
     --pico-card-sectioning-background-color: rgb(251, 251.5, 252.25);
+    /*Code Color Style*/
+    --pico-code-background-color: rgb(26, 30.5, 40.25);
+    --pico-code-color: #8891a4;
+    --pico-code-kbd-background-color: var(--pico-color);
+    --pico-code-kbd-color: var(--pico-background-color);
 }
