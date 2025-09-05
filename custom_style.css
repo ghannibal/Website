@@ -2,9 +2,11 @@
     /*Font Style*/
     --pico-font-family: "Courier New";
     --pico-line-height: 1.5;
-    --pico-font-weight: 400;
+    --pico-font-weight: 500;
     --pico-font-size: 100%;
     --pico-text-underline-offset: 0.1rem;
+    --pico-block-spacing-vertical: 0.5rem;
+    --pico-block-spacing-horizontal: 0.5rem;
     /*Navigation*/
     --pico-nav-element-spacing-vertical: 1rem;
     --pico-nav-element-spacing-horizontal: 0.5rem;
@@ -25,6 +27,17 @@ a {
 a.secondary,
 a.contrast {
     --pico-text-decoration: none;
+}
+
+pre,
+code,
+kbd,
+samp {
+    --pico-font-family: "Robot";
+}
+
+kbd {
+    --pico-font-weight: none;
 }
 
 /* Dark color scheme (Forced) */
@@ -48,35 +61,45 @@ a.contrast {
     --pico-h5-color: #ffffff;
     --pico-h6-color: #ffffff;
     /*Secondary Color Style*/
-    --pico-secondary: #969eaf;
-    --pico-secondary-background: #525f7a;
+    --pico-secondary: #ffffff;
+    --pico-secondary-background: #ffffff;
     --pico-secondary-border: var(--pico-secondary-background);
-    --pico-secondary-underline: rgba(150, 158, 175, 0.5);
-    --pico-secondary-hover: #b3b9c5;
-    --pico-secondary-hover-background: #5d6b89;
+    --pico-secondary-underline: none;
+    --pico-secondary-hover: #ffffff;
+    --pico-secondary-hover-background: #ffffff;
     --pico-secondary-hover-border: var(--pico-secondary-hover-background);
     --pico-secondary-hover-underline: var(--pico-secondary-hover);
-    --pico-secondary-focus: rgba(144, 158, 190, 0.25);
+    --pico-secondary-focus: none;
     --pico-secondary-inverse: #fff;
     /*Constrast Color Style*/
     --pico-contrast: #dfe3eb;
     --pico-contrast-background: #eff1f4;
     --pico-contrast-border: var(--pico-contrast-background);
-    --pico-contrast-underline: rgba(223, 227, 235, 0.5);
-    --pico-contrast-hover: #fff;
-    --pico-contrast-hover-background: #fff;
+    --pico-contrast-underline: rgb(255, 255, 255);
+    --pico-contrast-hover: #ffffff;
+    --pico-contrast-hover-background: #ffffff;
     --pico-contrast-hover-border: var(--pico-contrast-hover-background);
     --pico-contrast-hover-underline: var(--pico-contrast-hover);
-    --pico-contrast-focus: rgba(207, 213, 226, 0.25);
+    --pico-contrast-focus: none;
     --pico-contrast-inverse: #000;
     /*Card Color Style*/
-    --pico-card-background-color: #808080;
+    --pico-card-background-color: #0000ff;
     --pico-card-border-color: var(--pico-muted-border-color);
     --pico-card-box-shadow: var(--pico-box-shadow);
     --pico-card-sectioning-background-color: rgb(251, 251.5, 252.25);
     /*Code Color Style*/
-    --pico-code-background-color: rgb(26, 30.5, 40.25);
-    --pico-code-color: #8891a4;
+    --pico-code-background-color: rgb(0, 0, 255);
+    --pico-code-color: #ffffff;
     --pico-code-kbd-background-color: var(--pico-color);
     --pico-code-kbd-color: var(--pico-background-color);
+    /*Form Element Color Style*/
+    --pico-form-element-background-color: rgb(16, 16, 16);
+    --pico-form-element-selected-background-color: #2a3140;
+    --pico-form-element-border-color: #2a3140;
+    --pico-form-element-color: #ffffff;
+    --pico-form-element-placeholder-color: #808080;
+    --pico-form-element-active-background-color: rgb(16, 16, 16);
+    --pico-form-element-active-border-color: #0000ff;
+    --pico-form-element-focus-color: none;
+    --pico-form-element-disabled-opacity: 0.5;
 }
