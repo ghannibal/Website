@@ -3,7 +3,7 @@
     --pico-font-family: "Courier New";
     --pico-line-height: 1.5;
     --pico-font-weight: 500;
-    --pico-font-size: 100%;
+    --pico-font-size: 107%;
     --pico-text-underline-offset: 0.1rem;
     --pico-block-spacing-vertical: 0.5rem;
     --pico-block-spacing-horizontal: 0.5rem;
@@ -39,7 +39,8 @@ pre,
 code,
 kbd,
 samp {
-    --pico-font-family: "Robot";
+    --pico-font-family: "Courier New";
+
 }
 
 kbd {
