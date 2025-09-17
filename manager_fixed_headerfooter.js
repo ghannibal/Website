@@ -10,7 +10,7 @@ class FixedHeader extends HTMLElement {
             <title>Website - Glenda Hannibal</title>
             <nav class="container">
                 <ul>
-                    <li><a href="page_landing.html" class="contrast"><kbd>Home</kbd></a></li>
+                    <li><a href="page_landing.html" class="contrast"><strong>Home</strong></a></li>
                 </ul>
                 <ul>
                     <li><a href="page_research.html" class="contrast">Research</a></li>

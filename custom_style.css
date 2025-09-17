@@ -53,33 +53,34 @@ kbd {
     color-scheme: dark;
     /*Primary Color Style*/
     --pico-background-color: rgb(0, 0, 0);
-    --pico-muted-color: #0000ff;
-    --pico-primary: #0000ff;
-    --pico-primary-border: var(--pico-primary-background);
-    --pico-primary-underline: rgb(0, 0, 255);
-    --pico-primary-hover: #0000ff;
-    --pico-primary-hover-border: var(--pico-primary-hover-background);
-    --pico-primary-hover-underline: var(--pico-primary-hover);
     --pico-color: #ffffff;
-    --pico-h1-color: #ffffff;
+    --pico-h1-color: #0040ff;
     --pico-h2-color: #ffffff;
-    --pico-h3-color: #00ffff;
+    --pico-h3-color: #00bfff;
     --pico-h4-color: #ffffff;
     --pico-h5-color: #ffffff;
     --pico-h6-color: #ffffff;
-    --pico-mark-background-color: #0000ff;
+    --pico-mark-background-color: #0040ff;
     --pico-mark-color: #fff;
-    --pico-ins-color: #00ffff;
+    --pico-ins-color: #00bfff;
     --pico-del-color: rgb(205.5, 126, 123);
+    --pico-muted-color: #ffffff;
+    /*Primary Color Style*/
+    --pico-primary: #00bfff;
+    --pico-primary-border: none;
+    --pico-primary-underline: none;
+    --pico-primary-hover: #00bfff;
+    --pico-primary-hover-border: var(--pico-primary-hover-background);
+    --pico-primary-hover-underline: var(--pico-primary-hover);
     /*Secondary Color Style*/
     --pico-secondary: #ffffff;
     --pico-secondary-background: #ffffff;
-    --pico-secondary-border: var(--pico-secondary-background);
+    --pico-secondary-border: none;
     --pico-secondary-underline: none;
     --pico-secondary-hover: #ffffff;
     --pico-secondary-hover-background: #ffffff;
-    --pico-secondary-hover-border: var(--pico-secondary-hover-background);
-    --pico-secondary-hover-underline: var(--pico-secondary-hover);
+    --pico-secondary-hover-border: none;
+    --pico-secondary-hover-underline: none;
     --pico-secondary-focus: none;
     --pico-secondary-inverse: #fff;
     /*Constrast Color Style*/
@@ -93,24 +94,27 @@ kbd {
     --pico-contrast-hover-underline: var(--pico-contrast-hover);
     --pico-contrast-focus: none;
     --pico-contrast-inverse: #000;
-    /*Card Color Style*/
-    --pico-card-background-color: #0000ff;
+    /*Button Style*/
+    --pico-button-box-shadow: none;
+    --pico-button-hover-box-shadow: none;
+    /*Card Style*/
+    --pico-card-background-color: #0080ff;
     --pico-card-border-color: var(--pico-muted-border-color);
     --pico-card-box-shadow: var(--pico-box-shadow);
     --pico-card-sectioning-background-color: rgb(251, 251.5, 252.25);
-    /*Code Color Style*/
-    --pico-code-background-color: rgb(0, 0, 255);
+    /*Code Style*/
+    --pico-code-background-color: rgb(0, 128, 255);
     --pico-code-color: #ffffff;
     --pico-code-kbd-background-color: var(--pico-color);
     --pico-code-kbd-color: var(--pico-background-color);
-    /*Form Element Color Style*/
+    /*Form Element Style*/
     --pico-form-element-background-color: rgb(16, 16, 16);
     --pico-form-element-selected-background-color: #2a3140;
     --pico-form-element-border-color: #2a3140;
     --pico-form-element-color: #ffffff;
     --pico-form-element-placeholder-color: #808080;
     --pico-form-element-active-background-color: rgb(16, 16, 16);
-    --pico-form-element-active-border-color: #0000ff;
+    --pico-form-element-active-border-color: #0080ff;
     --pico-form-element-focus-color: none;
     --pico-form-element-disabled-opacity: 0.5;
 }
