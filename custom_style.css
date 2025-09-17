@@ -63,10 +63,14 @@ kbd {
     --pico-color: #ffffff;
     --pico-h1-color: #ffffff;
     --pico-h2-color: #ffffff;
-    --pico-h3-color: #808080;
+    --pico-h3-color: #00ffff;
     --pico-h4-color: #ffffff;
     --pico-h5-color: #ffffff;
     --pico-h6-color: #ffffff;
+    --pico-mark-background-color: #0000ff;
+    --pico-mark-color: #fff;
+    --pico-ins-color: #00ffff;
+    --pico-del-color: rgb(205.5, 126, 123);
     /*Secondary Color Style*/
     --pico-secondary: #ffffff;
     --pico-secondary-background: #ffffff;
