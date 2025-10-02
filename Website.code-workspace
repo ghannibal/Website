@@ -4,8 +4,10 @@
 			"path": "."
 		},
 		{
-			"path": "../../Desktop/pico-main"
+			"path": "."
+		},
+		{
+			"path": "."
 		}
-	],
-	"settings": {}
+	]
 }
