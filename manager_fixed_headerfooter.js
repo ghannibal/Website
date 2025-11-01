@@ -7,10 +7,13 @@ class FixedHeader extends HTMLElement {
             <link rel="stylesheet" href="pico_css/pico.min.css">
             <link rel="stylesheet" href="pico_css/pico.colors.min.css">
             <link rel="stylesheet" href="custom_style.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Momo+Signature&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
             <title>Website - Glenda Hannibal</title>
             <nav class="container">
                 <ul>
-                    <li><a href="page_landing.html" class="contrast"><strong>Home</strong></a></li>
+                    <li><a href="page_landing.html" class="contrast"><strong>HOME</strong></a></li>
                 </ul>
                 <ul>
                     <li><a href="page_research.html" class="contrast">Research</a></li>
