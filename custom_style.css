@@ -69,14 +69,14 @@ kbd {
     --pico-mark-color: #ffffff;
     --pico-code-kbd-background-color: #ffffff;
     --pico-code-kbd-color: #000000;
-    --pico-ins-color: blue;
+    --pico-ins-color: #0000b3;
     --pico-del-color: rgb(205.5, 126, 123);
     --pico-muted-color: #ffffff;
     /*Primary Color Style*/
-    --pico-primary: blue;
+    --pico-primary: #0000b3;
     --pico-primary-border: none;
     --pico-primary-underline: none;
-    --pico-primary-hover: blue;
+    --pico-primary-hover: #0000b3;
     --pico-primary-hover-border: none;
     --pico-primary-hover-underline: none;
     /*Secondary Color Style*/

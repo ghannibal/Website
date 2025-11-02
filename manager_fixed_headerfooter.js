@@ -36,7 +36,7 @@ class FixedFooter extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
             <footer class="container">
-            <hr>
+            <hr style="height:0.5px;border-width:0;color:white;background-color:white">
                 <small>
                 <p>
                     &copy; 2025 Glenda Hannibal. All Rights Reserved.
