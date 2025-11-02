@@ -1,6 +1,7 @@
 :root {
     /*Font Style*/
-    --pico-font-family: "Roboto Mono", monospace;
+    --pico-font-family: "Roboto", sans-serif;
+    text-align: justify;
     --pico-line-height: 1.5;
     --pico-font-weight: 300;
     --pico-font-size: auto;
@@ -52,7 +53,7 @@ kbd {
 [data-theme="dark"] {
     color-scheme: dark;
     /*Primary Color Style*/
-    --pico-background-color: rgb(0, 0, 0);
+    --pico-background-color: none;
     --pico-color: #ffffff;
     --pico-h1-color: #0080ff;
     --pico-h2-color: #000000;
@@ -62,7 +63,7 @@ kbd {
     --pico-h6-color: #ffffff;
     --pico-mark-background-color: #0080ff;
     --pico-mark-color: #ffffff;
-    --pico-code-kbd-background-color: #808080;
+    --pico-code-kbd-background-color: #C0C0C0;
     --pico-code-kbd-color: #000000;
     --pico-ins-color: #00bfff;
     --pico-del-color: rgb(205.5, 126, 123);
@@ -108,12 +109,12 @@ kbd {
     --pico-code-background-color: rgb(0, 255, 255);
     --pico-code-color: #000000;
     /*Form Element Style*/
-    --pico-form-element-background-color: rgb(128, 128, 128);
+    --pico-form-element-background-color: rgb(192, 192, 192);
     --pico-form-element-selected-background-color: #cccccc;
     --pico-form-element-border-color: none;
     --pico-form-element-color: #000000;
     --pico-form-element-placeholder-color: #000000;
-    --pico-form-element-active-background-color: rgb(128, 128, 128);
+    --pico-form-element-active-background-color: rgb(192, 192, 192);
     --pico-form-element-active-border-color: none;
     --pico-form-element-focus-color: none;
     --pico-form-element-disabled-opacity: 0.5;
