@@ -11,15 +11,6 @@ class FixedHeader extends HTMLElement {
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
             <title>Website - Glenda Hannibal</title>
-            <style>
-                #grad1 {
-                    height: 100px;
-                    background-color: red;
-                    /* For browsers that do not support gradients */
-                    background-image: linear-gradient(to right, green, blue);
-                }
-            </style>
-            <div id="grad1">
             <nav class="container">
                 <ul>
                     <li><a href="page_landing.html" class="contrast"><strong>HOME</strong></a></li>
@@ -37,8 +28,7 @@ class FixedHeader extends HTMLElement {
                     <li><a href="page_contact.html" class="contrast">Contact</a></li>
                 </ul>
             </nav>
-            </div>
-            `
+        `
     }
 }
 
@@ -46,7 +36,7 @@ class FixedFooter extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
             <footer class="container">
-            <hr />
+            <hr>
                 <small>
                 <p>
                     &copy; 2025 Glenda Hannibal. All Rights Reserved.

@@ -44,6 +44,10 @@ samp {
 
 }
 
+hr {
+    color: #ffffff;
+}
+
 kbd {
     --pico-font-weight: none;
 }
@@ -55,26 +59,26 @@ kbd {
     /*Primary Color Style*/
     --pico-background-color: none;
     --pico-color: #ffffff;
-    --pico-h1-color: #0080ff;
-    --pico-h2-color: #000000;
-    --pico-h3-color: #00bfff;
+    --pico-h1-color: #ffffff;
+    --pico-h2-color: #ffffff;
+    --pico-h3-color: #ffffff;
     --pico-h4-color: #ffffff;
     --pico-h5-color: #ffffff;
     --pico-h6-color: #ffffff;
-    --pico-mark-background-color: #0080ff;
+    --pico-mark-background-color: #000000;
     --pico-mark-color: #ffffff;
-    --pico-code-kbd-background-color: #C0C0C0;
+    --pico-code-kbd-background-color: #ffffff;
     --pico-code-kbd-color: #000000;
-    --pico-ins-color: #00bfff;
+    --pico-ins-color: blue;
     --pico-del-color: rgb(205.5, 126, 123);
     --pico-muted-color: #ffffff;
     /*Primary Color Style*/
-    --pico-primary: #00ffff;
+    --pico-primary: blue;
     --pico-primary-border: none;
     --pico-primary-underline: none;
-    --pico-primary-hover: #00ffff;
-    --pico-primary-hover-border: var(--pico-primary-hover-background);
-    --pico-primary-hover-underline: var(--pico-primary-hover);
+    --pico-primary-hover: blue;
+    --pico-primary-hover-border: none;
+    --pico-primary-hover-underline: none;
     /*Secondary Color Style*/
     --pico-secondary: #ffffff;
     --pico-secondary-background: #ffffff;
@@ -91,7 +95,7 @@ kbd {
     --pico-contrast-background: #ffffff;
     --pico-contrast-border: var(--pico-contrast-background);
     --pico-contrast-underline: rgb(255, 255, 255);
-    --pico-contrast-hover: #808080;
+    --pico-contrast-hover: #000000;
     --pico-contrast-hover-background: #000000;
     --pico-contrast-hover-border: var(--pico-contrast-hover-background);
     --pico-contrast-hover-underline: var(--pico-contrast-hover);
@@ -106,15 +110,15 @@ kbd {
     --pico-card-box-shadow: var(--pico-box-shadow);
     --pico-card-sectioning-background-color: rgb(204, 204, 204);
     /*Code Style*/
-    --pico-code-background-color: rgb(0, 255, 255);
+    --pico-code-background-color: rgb(245, 245, 245);
     --pico-code-color: #000000;
     /*Form Element Style*/
-    --pico-form-element-background-color: rgb(192, 192, 192);
+    --pico-form-element-background-color: rgb(245, 245, 245);
     --pico-form-element-selected-background-color: #cccccc;
     --pico-form-element-border-color: none;
     --pico-form-element-color: #000000;
     --pico-form-element-placeholder-color: #000000;
-    --pico-form-element-active-background-color: rgb(192, 192, 192);
+    --pico-form-element-active-background-color: rgb(245, 245, 245);
     --pico-form-element-active-border-color: none;
     --pico-form-element-focus-color: none;
     --pico-form-element-disabled-opacity: 0.5;
