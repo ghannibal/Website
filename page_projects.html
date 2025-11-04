@@ -5,35 +5,47 @@
     <fixed-header></fixed-header>
 </head>
 
+<style>
+    details>summary::after,
+    /* Latest Chrome, Edge, Firefox */
+    details>summary::-webkit-details-marker
+
+    /* Safari */
+        {
+        display: none;
+    }
+</style>
+
 <body style="background: rgb(0,84,180);
-background: linear-gradient(159deg, rgba(0,84,180,1) 0%, rgba(64,224,208,1) 100%); height: 100vh;">
+background: linear-gradient(159deg, rgba(0,84,180,1) 0%, rgba(64,224,208,1) 100%); background-attachment: fixed;"">
     <header></header>
-    <main class="container">
-        <h1>Projects</h1>
-        <p>Text goes here.</p>
-        <h3>Current</h3>
-        <details>
-            <summary role="button" class="outline secondary">EXDIGIT project</summary>
-            <p>
-                Role: Co-Investigator<br>
-                <br>
-                Partners: University of Salzburg (lead), Salzburg Research, Innovation Salzburg GmbH<br>
-                Funding: Land Sazlburg<br>
-                Budget: 12.719.832 EUR<br>
-                Duration: 2022-2028<br>
-                <br>
-                The Excellence in Digital Sciences and Interdisciplinary Technologies (EXDIGIT) project pursues the
-                long-term vision of establishing Salzburg as a leading and internationally recognized hub for digital
-                sciences and interdisciplinary technologies. EXDIGIT aims to serve as an innovative platform that
-                combines technological excellence with
-                social relevance. Its stated objective is to develop and apply digital key technologies such as
-                Artificial Intelligence, Big Data, Geoinformatics or Human-Computer Interaction not in isolation, but in
-                dynamic interaction with ethical, social, ecological, and economic perspectives, and to embed them into
-                broader disciplinary contexts.
-            </p>
-        </details>
-        <h3>Past</h3>
-        <details>
+    <main class=" container">
+    <h1>RESEARCH PROJECTS</h1>
+    <p>Text goes here.</p>
+    <h3>Current</h3>
+    <details>
+        <summary role="button" class="outline secondary">EXDIGIT Project</summary>
+        <p>
+            Role: Co-Investigator<br>
+            <br>
+            PI: Manfred Tscheligi<br>
+            Partners: University of Salzburg (lead), Salzburg Research, Innovation Salzburg GmbH<br>
+            Funding: Land Sazlburg<br>
+            Budget: 12.719.832 EUR<br>
+            Duration: 2022-2028<br>
+            <br>
+            The Excellence in Digital Sciences and Interdisciplinary Technologies (EXDIGIT) project pursues the
+            long-term vision of establishing Salzburg as a leading and internationally recognized hub for digital
+            sciences and interdisciplinary technologies. EXDIGIT aims to serve as an innovative platform that
+            combines technological excellence with
+            social relevance. Its stated objective is to develop and apply digital key technologies such as
+            Artificial Intelligence, Big Data, Geoinformatics or Human-Computer Interaction not in isolation, but in
+            dynamic interaction with ethical, social, ecological, and economic perspectives, and to embed them into
+            broader disciplinary contexts.
+        </p>
+    </details>
+    <h3>Past</h3>
+    <!--<details>
             <summary role="button" class="outline secondary">TrustRobots Doctoral College</summary>
             <p>
                 Role: Co-Investigator<br>
@@ -52,31 +64,31 @@ background: linear-gradient(159deg, rgba(0,84,180,1) 0%, rgba(64,224,208,1) 100%
                 robot to make the right decisions? When would it be wise not to trust? And even if we initially trusted
                 a robot, which experiences would and should change our trust in it?
             </p>
-        </details>
-        <details>
-            <summary role="button" class="outline secondary">SharedSpace project</summary>
-            <p>
-                Role: Co-Investigator<br>
-                <br>
-                PI: Astrid Weiss<br>
-                Funding: FWF (Elise Richter programme)<br>
-                Budget: 250.000 EUR<br>
-                Duration: 2018-2022<br>
-                <br>
-                The working hypothesis of this project is that the interaction of ordinary users with a social companion
-                robot (in this project the commercially available robot Anki Vector) changes over time and that its
-                adoption and acceptance differ in terms of the socio-demographic qualities of the involved households.
-                The main goal is to gain detailed empirical evidence on the adoption and acceptance processes from a
-                relatively small sample (eight households) over a longer period of time (eight months), therefore an
-                ethnographic approach is chosen as methodology. Several household visits accompanied by specific field
-                tools and techniques (semi-structured qualitative interviews, Day Reconstruction Method,
-                drawing/tinkering activities, short questionnaires/rating scales) will be performed. A baseline of
-                existing household routines will be established in a pre-visit before households receive an Anki Vector
-                and are firstly regularly visited over a period of six months. After half a year, the absence of Anki
-                Vector and its impact on the social household dynamics will be studied by giving it back for one month,
-                after a one-month break.
-            </p>
-        </details>
+        </details>-->
+    <details>
+        <summary role="button" class="outline secondary">SharedSpace Project</summary>
+        <p>
+            Role: Co-Investigator<br>
+            <br>
+            PI: Astrid Weiss<br>
+            Funding: FWF (Elise Richter programme)<br>
+            Budget: 250.000 EUR<br>
+            Duration: 2018-2022<br>
+            <br>
+            The working hypothesis of this project is that the interaction of ordinary users with a social companion
+            robot (in this project the commercially available robot Anki Vector) changes over time and that its
+            adoption and acceptance differ in terms of the socio-demographic qualities of the involved households.
+            The main goal is to gain detailed empirical evidence on the adoption and acceptance processes from a
+            relatively small sample (eight households) over a longer period of time (eight months), therefore an
+            ethnographic approach is chosen as methodology. Several household visits accompanied by specific field
+            tools and techniques (semi-structured qualitative interviews, Day Reconstruction Method,
+            drawing/tinkering activities, short questionnaires/rating scales) will be performed. A baseline of
+            existing household routines will be established in a pre-visit before households receive an Anki Vector
+            and are firstly regularly visited over a period of six months. After half a year, the absence of Anki
+            Vector and its impact on the social household dynamics will be studied by giving it back for one month,
+            after a one-month break.
+        </p>
+    </details>
     </main>
     <fixed-footer></fixed-footer>
     <script src="./manager_fixed_headerfooter.js"></script>
