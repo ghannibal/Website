@@ -52,6 +52,15 @@ kbd {
     --pico-font-weight: none;
 }
 
+details>summary::after,
+/* Latest Chrome, Edge, Firefox */
+details>summary::-webkit-details-marker
+
+/* Safari */
+    {
+    display: none;
+}
+
 /* Dark color scheme (Forced) */
 /* Enabled if forced with data-theme="dark" */
 [data-theme="dark"] {

@@ -11,6 +11,13 @@ class FixedHeader extends HTMLElement {
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
             <title>Website - Glenda Hannibal</title>
+            <style>
+                body {
+                    background: #22C1C3;
+                    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(0, 50, 130, 1) 100%);
+                    background-attachment: fixed;
+                }
+            </style>
             <nav class="container">
                 <ul>
                     <li><a href="page_landing.html" class="contrast"><strong>HOME</strong></a></li>
