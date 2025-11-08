@@ -78,14 +78,14 @@ details>summary::-webkit-details-marker
     --pico-mark-color: #ffffff;
     --pico-code-kbd-background-color: #ffffff;
     --pico-code-kbd-color: #000000;
-    --pico-ins-color: #0000b3;
+    --pico-ins-color: #8dd5ff;
     --pico-del-color: rgb(205.5, 126, 123);
     --pico-muted-color: #ffffff;
     /*Primary Color Style*/
-    --pico-primary: #0000b3;
+    --pico-primary: #00fffb;
     --pico-primary-border: none;
     --pico-primary-underline: none;
-    --pico-primary-hover: #0000b3;
+    --pico-primary-hover: #00fffb;
     --pico-primary-hover-border: none;
     --pico-primary-hover-underline: none;
     /*Secondary Color Style*/
@@ -104,8 +104,8 @@ details>summary::-webkit-details-marker
     --pico-contrast-background: #ffffff;
     --pico-contrast-border: var(--pico-contrast-background);
     --pico-contrast-underline: rgb(255, 255, 255);
-    --pico-contrast-hover: #000000;
-    --pico-contrast-hover-background: #000000;
+    --pico-contrast-hover: none;
+    --pico-contrast-hover-background: none;
     --pico-contrast-hover-border: var(--pico-contrast-hover-background);
     --pico-contrast-hover-underline: var(--pico-contrast-hover);
     --pico-contrast-focus: none;
