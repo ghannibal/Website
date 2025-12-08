@@ -13,8 +13,8 @@ class FixedHeader extends HTMLElement {
             <title>Website - Glenda Hannibal</title>
             <style>
                 body {
-                    background: #22C1C3;
-                    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(0, 50, 130, 1) 100%);
+                    background: #ad6c1c;
+background: linear-gradient(0deg,rgba(173, 108, 28, 1) 0%, rgba(145, 55, 55, 1) 100%);
                     background-attachment: fixed;
                 }
             </style>
