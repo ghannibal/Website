@@ -13,8 +13,7 @@ class FixedHeader extends HTMLElement {
             <title>Website - Glenda Hannibal</title>
             <style>
                 body {
-                    background: #ad6c1c;
-background: linear-gradient(0deg,rgba(173, 108, 28, 1) 0%, rgba(145, 55, 55, 1) 100%);
+                background: #ffffff;
                     background-attachment: fixed;
                 }
             </style>
@@ -43,7 +42,7 @@ class FixedFooter extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
             <footer class="container">
-            <hr style="height:0.5px;border-width:0;color:white;background-color:white">
+            <hr style="height:0.5px;border-width:0;color:white;background-color:black">
                 <small>
                 <p>
                     &copy; 2025 Glenda Hannibal. All Rights Reserved.

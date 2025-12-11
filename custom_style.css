@@ -67,41 +67,41 @@ details>summary::-webkit-details-marker
     color-scheme: dark;
     /*Primary Color Style*/
     --pico-background-color: none;
-    --pico-color: #ffffff;
-    --pico-h1-color: #ffffff;
+    --pico-color: #000000;
+    --pico-h1-color: #800020;
     --pico-h2-color: #ffffff;
-    --pico-h3-color: #ffffff;
+    --pico-h3-color: #1C3D58;
     --pico-h4-color: #ffffff;
     --pico-h5-color: #ffffff;
     --pico-h6-color: #ffffff;
     --pico-mark-background-color: #000000;
     --pico-mark-color: #ffffff;
     --pico-code-kbd-background-color: #ffffff;
-    --pico-code-kbd-color: #000000;
-    --pico-ins-color: #8dd5ff;
+    --pico-code-kbd-color: #800020;
+    --pico-ins-color: #1C3D58;
     --pico-del-color: rgb(205.5, 126, 123);
-    --pico-muted-color: #ffffff;
+    --pico-muted-color: #000000;
     /*Primary Color Style*/
-    --pico-primary: #00fffb;
+    --pico-primary: #1C3D58;
     --pico-primary-border: none;
     --pico-primary-underline: none;
-    --pico-primary-hover: #00fffb;
+    --pico-primary-hover: #1C3D58;
     --pico-primary-hover-border: none;
     --pico-primary-hover-underline: none;
     /*Secondary Color Style*/
-    --pico-secondary: #ffffff;
-    --pico-secondary-background: #ffffff;
+    --pico-secondary: #000000;
+    --pico-secondary-background: #000000;
     --pico-secondary-border: none;
     --pico-secondary-underline: none;
-    --pico-secondary-hover: #ffffff;
-    --pico-secondary-hover-background: #ffffff;
+    --pico-secondary-hover: #000000;
+    --pico-secondary-hover-background: #000000;
     --pico-secondary-hover-border: none;
     --pico-secondary-hover-underline: none;
     --pico-secondary-focus: none;
     --pico-secondary-inverse: #fff;
     /*Constrast Color Style --> Navigation Bar*/
-    --pico-contrast: #ffffff;
-    --pico-contrast-background: #ffffff;
+    --pico-contrast: #000000;
+    --pico-contrast-background: #000000;
     --pico-contrast-border: var(--pico-contrast-background);
     --pico-contrast-underline: rgb(255, 255, 255);
     --pico-contrast-hover: none;
@@ -109,12 +109,12 @@ details>summary::-webkit-details-marker
     --pico-contrast-hover-border: var(--pico-contrast-hover-background);
     --pico-contrast-hover-underline: var(--pico-contrast-hover);
     --pico-contrast-focus: none;
-    --pico-contrast-inverse: #ffffff;
+    --pico-contrast-inverse: #00000;
     /*Button Style*/
     --pico-button-box-shadow: none;
     --pico-button-hover-box-shadow: none;
     /*Card Style*/
-    --pico-card-background-color: #0080ff;
+    --pico-card-background-color: #1C3D58;
     --pico-card-border-color: var(--pico-muted-border-color);
     --pico-card-box-shadow: var(--pico-box-shadow);
     --pico-card-sectioning-background-color: rgb(204, 204, 204);
