@@ -45,7 +45,7 @@ class FixedFooter extends HTMLElement {
             <hr style="height:0.5px;border-width:0;color:white;background-color:black">
                 <small>
                 <p>
-                    &copy; 2025 Glenda Hannibal. All Rights Reserved.
+                    &copy; 2026 Glenda Hannibal. All Rights Reserved.
                 </p>
                 </small>
             </footer>
