@@ -68,7 +68,7 @@ details>summary::-webkit-details-marker
     /*Primary Color Style*/
     --pico-background-color: none;
     --pico-color: #000000;
-    --pico-h1-color: #800020;
+    --pico-h1-color: #1C3D58;
     --pico-h2-color: #ffffff;
     --pico-h3-color: #1C3D58;
     --pico-h4-color: #ffffff;
@@ -78,14 +78,14 @@ details>summary::-webkit-details-marker
     --pico-mark-color: #ffffff;
     --pico-code-kbd-background-color: #1C3D58;
     --pico-code-kbd-color: #ffffff;
-    --pico-ins-color: #800020;
+    --pico-ins-color: #0077b3;
     --pico-del-color: rgb(205.5, 126, 123);
     --pico-muted-color: #000000;
     /*Primary Color Style*/
-    --pico-primary: #800020;
+    --pico-primary: #0077b3;
     --pico-primary-border: none;
     --pico-primary-underline: none;
-    --pico-primary-hover: #800020;
+    --pico-primary-hover: #0077b3;
     --pico-primary-hover-border: none;
     --pico-primary-hover-underline: none;
     /*Secondary Color Style*/
@@ -114,7 +114,7 @@ details>summary::-webkit-details-marker
     --pico-button-box-shadow: none;
     --pico-button-hover-box-shadow: none;
     /*Card Style*/
-    --pico-card-background-color: #1C3D58;
+    --pico-card-background-color: #0077b3;
     --pico-card-border-color: var(--pico-muted-border-color);
     --pico-card-box-shadow: var(--pico-box-shadow);
     --pico-card-sectioning-background-color: rgb(204, 204, 204);
