@@ -13,7 +13,7 @@ class FixedHeader extends HTMLElement {
             <title>Website - Glenda Hannibal</title>
             <style>
                 body {
-                background: #FAFAFA;
+                background: #ffffff;
                     background-attachment: fixed;
                 }
             </style>
