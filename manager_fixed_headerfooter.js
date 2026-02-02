@@ -13,13 +13,14 @@ class FixedHeader extends HTMLElement {
             <title>Website - Glenda Hannibal</title>
             <style>
                 body {
-                background: #ffffff;
+                    background-color: #ffcfdf;
+                    background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%);
                     background-attachment: fixed;
                 }
             </style>
             <nav class="container">
                 <ul>
-                    <li><a href="page_landing.html" class="contrast"><strong>HOME</strong></a></li>
+                    <li><a href="page_landing.html" class="contrast"><strong>Glenda Hannibal</strong></a></li>
                 </ul>
                 <ul>
                     <li><a href="page_research.html" class="contrast">Research</a></li>

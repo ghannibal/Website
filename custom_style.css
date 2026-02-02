@@ -68,24 +68,24 @@ details>summary::-webkit-details-marker
     /*Primary Color Style*/
     --pico-background-color: none;
     --pico-color: #000000;
-    --pico-h1-color: #000080;
+    --pico-h1-color: #000000;
     --pico-h2-color: #ffffff;
-    --pico-h3-color: #000080;
+    --pico-h3-color: #000000;
     --pico-h4-color: #ffffff;
     --pico-h5-color: #ffffff;
     --pico-h6-color: #ffffff;
     --pico-mark-background-color: #000000;
     --pico-mark-color: #ffffff;
-    --pico-code-kbd-background-color: #000080;
-    --pico-code-kbd-color: #ffffff;
+    --pico-code-kbd-background-color: #ffffff;
+    --pico-code-kbd-color: #000000;
     --pico-ins-color: #2E6F40;
     --pico-del-color: rgb(205.5, 126, 123);
     --pico-muted-color: #000000;
     /*Primary Color Style*/
-    --pico-primary: #2E6F40;
+    --pico-primary: #ffffff;
     --pico-primary-border: none;
     --pico-primary-underline: none;
-    --pico-primary-hover: #2E6F40;
+    --pico-primary-hover: #ffffff;
     --pico-primary-hover-border: none;
     --pico-primary-hover-underline: none;
     /*Secondary Color Style*/
