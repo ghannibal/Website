@@ -5,7 +5,7 @@
     --pico-line-height: 1.5;
     --pico-font-weight: 300;
     --pico-font-size: auto;
-    --pico-text-underline-offset: 0.1rem;
+    --pico-text-underline-offset: 0.0rem;
     --pico-block-spacing-vertical: 0.5rem;
     --pico-block-spacing-horizontal: 0.5rem;
     /*Navigation*/
@@ -33,7 +33,8 @@ a.contrast {
 a:hover,
 a:active,
 a:link {
-    --pico-text-decoration: none;
+    text-decoration: none;
+
 }
 
 pre,
@@ -64,12 +65,12 @@ details>summary::-webkit-details-marker
 /* Dark color scheme (Forced) */
 /* Enabled if forced with data-theme="dark" */
 [data-theme="dark"] {
-    color-scheme: dark;
+    color-scheme: light;
     /*Primary Color Style*/
     --pico-background-color: none;
     --pico-color: #000000;
     --pico-h1-color: #000000;
-    --pico-h2-color: #ffffff;
+    --pico-h2-color: #000000;
     --pico-h3-color: #000000;
     --pico-h4-color: #ffffff;
     --pico-h5-color: #ffffff;
@@ -82,10 +83,10 @@ details>summary::-webkit-details-marker
     --pico-del-color: rgb(205.5, 126, 123);
     --pico-muted-color: #000000;
     /*Primary Color Style*/
-    --pico-primary: #ffffff;
+    --pico-primary: #000000;
     --pico-primary-border: none;
     --pico-primary-underline: none;
-    --pico-primary-hover: #ffffff;
+    --pico-primary-hover: #000000;
     --pico-primary-hover-border: none;
     --pico-primary-hover-underline: none;
     /*Secondary Color Style*/
@@ -94,22 +95,22 @@ details>summary::-webkit-details-marker
     --pico-secondary-border: none;
     --pico-secondary-underline: none;
     --pico-secondary-hover: #000000;
-    --pico-secondary-hover-background: #000000;
+    --pico-secondary-hover-background: none;
     --pico-secondary-hover-border: none;
     --pico-secondary-hover-underline: none;
     --pico-secondary-focus: none;
-    --pico-secondary-inverse: #fff;
+    --pico-secondary-inverse: none;
     /*Constrast Color Style --> Navigation Bar*/
     --pico-contrast: #000000;
     --pico-contrast-background: #000000;
-    --pico-contrast-border: var(--pico-contrast-background);
-    --pico-contrast-underline: rgb(255, 255, 255);
+    --pico-contrast-border: none;
+    --pico-contrast-underline: none;
     --pico-contrast-hover: none;
     --pico-contrast-hover-background: none;
-    --pico-contrast-hover-border: var(--pico-contrast-hover-background);
-    --pico-contrast-hover-underline: var(--pico-contrast-hover);
+    --pico-contrast-hover-border: none;
+    --pico-contrast-hover-underline: none;
     --pico-contrast-focus: none;
-    --pico-contrast-inverse: #00000;
+    --pico-contrast-inverse: none;
     /*Button Style*/
     --pico-button-box-shadow: none;
     --pico-button-hover-box-shadow: none;
