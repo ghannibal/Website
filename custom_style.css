@@ -83,10 +83,10 @@ details>summary::-webkit-details-marker
     --pico-del-color: rgb(205.5, 126, 123);
     --pico-muted-color: #000000;
     /*Primary Color Style*/
-    --pico-primary: #000000;
+    --pico-primary: #ffffff;
     --pico-primary-border: none;
     --pico-primary-underline: none;
-    --pico-primary-hover: #000000;
+    --pico-primary-hover: #ffffff;
     --pico-primary-hover-border: none;
     --pico-primary-hover-underline: none;
     /*Secondary Color Style*/
