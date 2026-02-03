@@ -69,7 +69,7 @@ details>summary::-webkit-details-marker
     /*Primary Color Style*/
     --pico-background-color: none;
     --pico-color: #000000;
-    --pico-h1-color: #000000;
+    --pico-h1-color: #b71540;
     --pico-h2-color: #000000;
     --pico-h3-color: #000000;
     --pico-h4-color: #ffffff;
@@ -78,7 +78,7 @@ details>summary::-webkit-details-marker
     --pico-mark-background-color: #000000;
     --pico-mark-color: #ffffff;
     --pico-code-kbd-background-color: #ffffff;
-    --pico-code-kbd-color: #000000;
+    --pico-code-kbd-color: #b71540;
     --pico-ins-color: #2E6F40;
     --pico-del-color: rgb(205.5, 126, 123);
     --pico-muted-color: #000000;
