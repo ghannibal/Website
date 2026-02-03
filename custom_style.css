@@ -81,20 +81,20 @@ details>summary::-webkit-details-marker
     --pico-code-kbd-color: #b71540;
     --pico-ins-color: #2E6F40;
     --pico-del-color: rgb(205.5, 126, 123);
-    --pico-muted-color: #000000;
+    --pico-muted-color: #b71540;
     /*Primary Color Style*/
-    --pico-primary: #ffffff;
+    --pico-primary: #b71540;
     --pico-primary-border: none;
     --pico-primary-underline: none;
-    --pico-primary-hover: #ffffff;
+    --pico-primary-hover: #b71540;
     --pico-primary-hover-border: none;
     --pico-primary-hover-underline: none;
     /*Secondary Color Style*/
-    --pico-secondary: #000000;
+    --pico-secondary: #b71540;
     --pico-secondary-background: #000000;
-    --pico-secondary-border: none;
+    --pico-secondary-border: #000000;
     --pico-secondary-underline: none;
-    --pico-secondary-hover: #000000;
+    --pico-secondary-hover: #b71540;
     --pico-secondary-hover-background: none;
     --pico-secondary-hover-border: none;
     --pico-secondary-hover-underline: none;
@@ -102,7 +102,7 @@ details>summary::-webkit-details-marker
     --pico-secondary-inverse: none;
     /*Constrast Color Style --> Navigation Bar*/
     --pico-contrast: #000000;
-    --pico-contrast-background: #000000;
+    --pico-contrast-background: none;
     --pico-contrast-border: none;
     --pico-contrast-underline: none;
     --pico-contrast-hover: none;
