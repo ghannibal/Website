@@ -6,6 +6,13 @@
 </head>
 
 <style>
+    main {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
     h1 {
         font-size: 3rem;
     }
@@ -17,11 +24,47 @@
         float: left;
         filter: brightness(110%);
     }
-    main{
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        margin-right: 20rem;
-        margin-left: 20rem;
+
+
+    /* center the blockquote in the page */
+    .blockquote-wrapper {
+        display: flex;
+        height: 45vh;
+    }
+
+    /* Blockquote main style */
+    .blockquote {
+        position: relative;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        color: #ffffff;
+        padding: 20px 0;
+        width: 100%;
+        max-width: 500px;
+        z-index: 1;
+        margin: 80px auto;
+        align-self: center;
+        border-top: solid 1px;
+        border-bottom: solid 1px;
+    }
+
+    /* Blockquote right double quotes */
+    .blockquote:after {
+        position: absolute;
+        content: "”";
+        color: rgba(255, 255, 255, 1);
+        font-size: 10rem;
+        line-height: 0;
+        bottom: -43px;
+        right: 30px;
+    }
+
+    /* increase header size after 600px */
+    @media all and (min-width: 600px) {
+        .blockquote h1 {
+            font-size: 60px;
+        }
+
     }
 </style>
 
@@ -30,15 +73,29 @@
     <main>
         <img src="photo.jpg">
         <hgroup>
-            <h1><kbd>RESEARCHER & SPEAKER</kbd></h1>
-            <mark>Trust an Explanations in Human-AI Interaction</mark>
+            <h1><kbd>RESEARCHER</kbd></h1>
+            <strong>
+                <i>Trust and Explanations in Human-AI Interaction</i>
+            </strong>
         </hgroup>
-        <blockquote>
+        <div class="blockquote-wrapper">
+            <div class="blockquote">
+                <h3>
+                    Examining the double-edged nature of trust in the specific context of human-AI interaction is an
+                    exciting
+                    area of research because it also raises fundamental questions about what it means to be human.
+                </h3>
+            </div>
+        </div>
+        <!--<p>
             To unlock the full potential of AI, people must be able to trust AI-powered systems.
-            Yet trust in AI also involves risk and uncertainty as AI-powered systems are imperfect, which leave people vulnerable.
-            For this reason, the key question is not simply whether people can or should trust AI, but how that trust is formed and managed.
-            Examining the double-edged nature of trust in the specific context of human-AI interaction is an exciting area of research, as it also raises fundamental questions about what it means to be human.
-        </blockquote>
+            Yet trust in AI also involves risk and uncertainty as AI-powered systems are imperfect, which leave people
+            vulnerable.
+            For this reason, the key question is not simply whether people can or should trust AI, but how that trust is
+            formed and managed.
+            Examining the double-edged nature of trust in the specific context of human-AI interaction is an exciting
+            area of research, as it also raises fundamental questions about what it means to be human.
+        </p>-->
         <button class="outline secondary">
             <a href="page_research.html">About My Work</a>
         </button>
