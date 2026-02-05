@@ -25,69 +25,196 @@
         filter: brightness(110%);
     }
 
+    @import "compass/css3";
 
-    /* center the blockquote in the page */
-    .blockquote-wrapper {
-        display: flex;
-        height: 45vh;
+    html {
+        background: #cfd9df 0%, #e2ebf0 100%;
     }
 
-    /* Blockquote main style */
-    .blockquote {
+    h1 {
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .testimonial-quote {
+        font-size: 16px;
+    }
+
+    .testimonial-quote blockquote {
+        /* Negate theme styles */
+        border: 0;
+        margin: 0;
+        padding: 0;
+
+        background: none;
+        color: gray;
+        font-family: Georgia, serif;
+        font-size: 1.5em;
+        font-style: italic;
+        line-height: 1.4 !important;
+        margin: 0;
         position: relative;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 800;
-        color: #ffffff;
-        padding: 20px 0;
-        width: 100%;
-        max-width: 500px;
-        z-index: 1;
-        margin: 80px auto;
-        align-self: center;
-        border-top: solid 1px;
-        border-bottom: solid 1px;
+        text-shadow: 0 1px white;
+        z-index: 600;
     }
 
-    /* Blockquote right double quotes */
-    .blockquote:after {
+    .testimonial-quote blockquote * {
+        box-sizing: border-box;
+    }
+
+    .testimonial-quote blockquote p {
+        color: #75808a;
+        line-height: 1.4 !important;
+    }
+
+    .testimonial-quote blockquote p:first-child:before {
+        content: '\201C';
+        color: #81bedb;
+        font-size: 7.5em;
+        font-weight: 700;
+        opacity: .3;
         position: absolute;
-        content: "”";
-        color: rgba(255, 255, 255, 1);
-        font-size: 10rem;
-        line-height: 0;
-        bottom: -43px;
-        right: 30px;
+        top: -.4em;
+        left: -.2em;
+        text-shadow: none;
+        z-index: -300;
     }
 
-    /* increase header size after 600px */
-    @media all and (min-width: 600px) {
-        .blockquote h1 {
-            font-size: 60px;
-        }
+    .testimonial-quote img {
+        border: 3px solid #9CC1D3;
+        border-radius: 50%;
+        display: block;
+        width: 120px;
+        height: 120px;
+        position: absolute;
+        top: -.2em;
+        left: 0;
+    }
 
+    .testimonial-quote cite {
+        color: gray;
+        display: block;
+        font-size: .8em;
+    }
+
+    .testimonial-quote cite span {
+        color: #5e5e5e;
+        font-size: 1em;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        text-shadow: 0 1px white;
+    }
+
+    .testimonial-quote {
+        position: relative;
+    }
+
+    .testimonial-quote .quote-container {
+        padding-left: 160px;
+    }
+
+    .testimonial-quote.right .quote-container {
+        padding-left: 0;
+        padding-right: 160px;
+    }
+
+    .testimonial-quote.right img {
+        left: auto;
+        right: 0;
+    }
+
+    .testimonial-quote.right cite {
+        text-align: right;
     }
 </style>
 
 <body>
     <header></header>
     <main>
-        <img src="photo.jpg">
+        <!--<img src="photo.jpg">
         <hgroup>
             <h1><kbd>RESEARCHER</kbd></h1>
             <strong>
                 <i>Trust and Explanations in Human-AI Interaction</i>
             </strong>
-        </hgroup>
-        <div class="blockquote-wrapper">
-            <div class="blockquote">
-                <h3>
-                    Examining the double-edged nature of trust in the specific context of human-AI interaction is an
-                    exciting
-                    area of research because it also raises fundamental questions about what it means to be human.
-                </h3>
+        </hgroup>-->
+        <div style="width: 600px; margin: 0 auto; padding-top: 0px; padding-bottom: 0px;">
+
+            <!--<h1>Full-Width, Left-Aligned</h1>-->
+            <div class="testimonial-quote group">
+                <img src="photo.jpg">
+                <div class="quote-container">
+                    <blockquote>
+                        <p>Overall, fantastic! I'd recommend them to anyone looking for a creative, thoughtful, and
+                            professional team.”</p>
+                    </blockquote>
+                    <cite><span>Glenda Hannibal</span><br>
+                        Researcher,
+                        Trust and Explanations in Human-AI Interaction
+                    </cite>
+                </div>
             </div>
-        </div>
-        <!--<p>
+
+            <!--<hr style="margin: 60px auto; opacity: .5;">
+
+            <h1>Full-Width, Right-Aligned</h1>
+            <div class="testimonial-quote group right">
+                <img src="http://placehold.it/120x120">
+                <div class="quote-container">
+                    <div>
+                        <blockquote>
+                            <p>Overall, fantastic! I'd recommend them to anyone looking for a creative, thoughtful, and
+                                professional team.”</p>
+                        </blockquote>
+                        <cite><span>Kristi Bruno</span><br>
+                            Social Media Specialist<br>
+                            American College of Chest Physicians
+                        </cite>
+                    </div>
+                </div>
+            </div>
+
+            <hr style="margin: 60px auto; opacity: .5;">
+
+            <h1>600px-Wide, Right-Aligned</h1>
+            <div class="testimonial-quote group right" style="width: 600px; margin-right: auto;">
+                <img src="http://placehold.it/120x120">
+                <div class="quote-container">
+                    <div>
+                        <blockquote>
+                            <p>Overall, fantastic! I'd recommend them to anyone looking for a creative, thoughtful, and
+                                professional team.”</p>
+                        </blockquote>
+                        <cite><span>Kristi Bruno</span><br>
+                            Social Media Specialist<br>
+                            American College of Chest Physicians
+                        </cite>
+                    </div>
+                </div>
+            </div>
+
+            <hr style="margin: 60px auto; opacity: .5;">
+
+            <h1>600px Wide, Right-Aligned</h1>
+            <div class="testimonial-quote group " style="width: 600px; margin-left: auto;">
+                <img src="http://placehold.it/120x120">
+                <div class="quote-container">
+                    <blockquote>
+                        <p>Overall, fantastic! I'd recommend them to anyone looking for a creative,<br> thoughtful, and
+                            professional team.”</p>
+                    </blockquote>
+                    <cite><span>Kristi Bruno</span><br>
+                        Social Media Specialist<br>
+                        American College of Chest Physicians
+                    </cite>
+                </div>
+            </div>
+
+        </div>-->
+            <!--<p>
             To unlock the full potential of AI, people must be able to trust AI-powered systems.
             Yet trust in AI also involves risk and uncertainty as AI-powered systems are imperfect, which leave people
             vulnerable.
@@ -96,10 +223,12 @@
             Examining the double-edged nature of trust in the specific context of human-AI interaction is an exciting
             area of research, as it also raises fundamental questions about what it means to be human.
         </p>-->
-        <button class="outline secondary">
-            <a href="page_research.html">About My Work</a>
-        </button>
-        <!--<p>
+            <br>
+            <br>
+            <button class="outline secondary" style="width: 600px;">
+                <a href="page_research.html">About My Work</a>
+            </button>
+            <!--<p>
             I am an independent Postdoc in the EXDIGIT project at the
             Department of Artificial Intelligence and Human Interfaces, University of Salzburg.
             I was previously a Postdoc in the Department of Artificial Intelligence at Ulm University and a Predoc
