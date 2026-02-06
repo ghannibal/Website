@@ -16,6 +16,12 @@ class FixedHeader extends HTMLElement {
                     background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
                     background-attachment: fixed;
                 }
+                img {
+                    border: 1px solid #b71540;
+                    border-radius: 2rem;
+                    margin-right: 1.5rem;
+                    float: left;
+                }
             </style>
             <nav class="container">
                 <ul>
