@@ -10,7 +10,7 @@ class FixedHeader extends HTMLElement {
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-            <title>Dr. Glenda Hannibal</title>
+            <title>G. Hannibal</title>
             <style>
                 body {
                     background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
@@ -25,12 +25,11 @@ class FixedHeader extends HTMLElement {
             </style>
             <nav class="container">
                 <ul>
-                    <li><a href="page_landing.html" class="contrast"><strong>Dr. GLENDA HANNIBAL</strong></a></li>
+                    <li><a href="page_landing.html" class="contrast"><strong>GLENDA HANNIBAL</strong></a></li>
                 </ul>
                 <ul>
                     <li><a href="page_research.html" class="contrast">Research</a></li>
                     <li><a href="page_projects.html" class="contrast">Projects</a></li>
-                    <li><a href="page_publications.html" class="contrast">Publications</a></li>
                     <!--<li><a href="page_talks.html" class="contrast">Talks</a></li>-->
                     <!--<li><a href="pages_service.html" class="contrast">Service</a></li>-->
                     <!--<li><a href="page_supervision.html" class="contrast">Supervision</a></li>-->
@@ -39,6 +38,9 @@ class FixedHeader extends HTMLElement {
                     <!--<li><a href="page_outreach.html" class="contrast">Outreach</a></li>-->
                     <!--<li><a href="page_bio.html" class="contrast">Bio</a></li>-->
                     <!--<li><a href="page_contact.html" class="contrast">Contact</a></li>-->
+                </ul>
+                <ul>
+                    <li><a href="page_publications.html" class="contrast">Publications</a></li>
                     <li><a href="page_bio.html" class="contrast">Bio</a></li>
                     <!--<li><a href="page_contact.html" class="contrast">Contact</a></li>-->
                 </ul>
