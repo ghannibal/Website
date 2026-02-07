@@ -19,8 +19,6 @@ class FixedHeader extends HTMLElement {
                 img {
                     border: 1px solid #b71540;
                     border-radius: 2rem;
-                    margin-right: 1.5rem;
-                    float: left;
                 }
             </style>
             <nav class="container">
