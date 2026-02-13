@@ -37,7 +37,7 @@ class FixedHeader extends HTMLElement {
                     <!--<li><a href="page_outreach.html" class="contrast">Outreach</a></li>-->
                 </ul>
                 <ul>
-                    <li><a href="page_team.html" class="contrast">Teams</a></li>
+                    <li><a href="page_team.html" class="contrast">Team</a></li>
                     <li><a href="page_bio.html" class="contrast">Bio</a></li>
                     <!--<li><a href="page_contact.html" class="contrast">Contact</a></li>-->
                 </ul>
