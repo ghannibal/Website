@@ -92,7 +92,7 @@ details>summary::-webkit-details-marker
     /*Secondary Color Style*/
     --pico-secondary: #000000;
     --pico-secondary-background: #000000;
-    --pico-secondary-border: #000000;
+    --pico-secondary-border: none;
     --pico-secondary-underline: none;
     --pico-secondary-hover: #000000;
     --pico-secondary-hover-background: none;
