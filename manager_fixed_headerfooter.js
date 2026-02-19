@@ -20,6 +20,9 @@ class FixedHeader extends HTMLElement {
                     border: 1px solid #b71540;
                     border-radius: 2rem;
                 }
+                c {
+                    color: #b71540;
+                }
             </style>
             <nav class="container">
                 <ul>
