@@ -23,6 +23,9 @@ class FixedHeader extends HTMLElement {
                 c {
                     color: #b71540;
                 }
+                mark {
+                    opacity: .3;
+                }
             </style>
             <nav class="container">
                 <ul>
