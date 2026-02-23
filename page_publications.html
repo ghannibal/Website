@@ -52,7 +52,7 @@
             <div class="group year" extra="DESC number">
                 <h3 class="title"></h3> <!-- renders the year as an H3 instead of the default H1 -->
                 <div class="templates"></div>
-                <div style="padding-bottom:0px;"></div>
+                <div style="padding-bottom:-10px;"></div>
             </div>
         </div>
 
@@ -61,12 +61,13 @@
                 <div>
                     </span class="if author"><span class="author"></span>
                     <span class="if year">(<span class="year"></span>).</span>
-                    <span class="if title">
+                    <!--<span class="if title">
                         <c><span class="title"></span></c>.
-                    </span>
-                    <!--<a class="bibtexVar" href="http://www.website.com/~demo/papers/+BIBTEXKEY+.pdf" extra="BIBTEXKEY">
-                        <span style="text-decoration: underline;" class="title"></span>
-                    </a>.</span>-->
+                    </span>-->
+                    <a class="bibtexVar" href="http://www.website.com/~demo/papers/+BIBTEXKEY+.pdf" target="_blank"
+                        extra="BIBTEXKEY">
+                        <span class="title"></span>
+                    </a>.</span>
                     <span class="if journal"><em><span class="journal"></span></em>,</span>
                     <span class="if booktitle">In <em><span class="booktitle"></span></em>,</span>
                     <span class="if series"><span class="series"></span>,</span>
@@ -77,10 +78,10 @@
                     <span class="if school"><span class="school"></span>,</span>
                     <span class="if publisher"><span class="publisher"></span>.</span>
                     <span class="if doi">DOI: <span class="doi"></span>.</span>
-                    <span class="if note"><span class="note"></span>.</span>
+                    <span class="if note"><mark><span class="note"></mark></span></span>
                     <br>
                     <details>
-                        <summary style="display: inline" style="text-decoration:none"><a>BibTex</a></summary>
+                        <summary><a>BibTex</a></summary>
                         <p>
                         <pre><span class="bibtexraw noread"</span></pre>
                         </p>
