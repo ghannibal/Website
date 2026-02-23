@@ -52,7 +52,7 @@
             <div class="group year" extra="DESC number">
                 <h3 class="title"></h3> <!-- renders the year as an H3 instead of the default H1 -->
                 <div class="templates"></div>
-                <div style="padding-bottom:-10px;"></div>
+                <div style="padding-bottom:0px;"></div>
             </div>
         </div>
 
@@ -61,11 +61,7 @@
                 <div>
                     </span class="if author"><span class="author"></span>
                     <span class="if year">(<span class="year"></span>).</span>
-                    <!--<span class="if title">
-                        <c><span class="title"></span></c>.
-                    </span>-->
-                    <a class="bibtexVar" href="http://www.website.com/~demo/papers/+BIBTEXKEY+.pdf" target="_blank"
-                        extra="BIBTEXKEY">
+                    <a class="bibtexVar" href="+URL+" extra="url" target="_blank">
                         <span class="title"></span>
                     </a>.</span>
                     <span class="if journal"><em><span class="journal"></span></em>,</span>
@@ -77,11 +73,11 @@
                     <span class="if type"><span class="type"></span>,</span>
                     <span class="if school"><span class="school"></span>,</span>
                     <span class="if publisher"><span class="publisher"></span>.</span>
-                    <span class="if doi">DOI: <span class="doi"></span>.</span>
+                    <span class="if url"><span class="url"></span></span>
                     <span class="if note"><mark><span class="note"></mark></span></span>
                     <br>
                     <details>
-                        <summary><a>BibTex</a></summary>
+                        <summary><em><a>BibTex</a></em></summary>
                         <p>
                         <pre><span class="bibtexraw noread"</span></pre>
                         </p>
