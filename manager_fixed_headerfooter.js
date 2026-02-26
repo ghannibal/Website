@@ -29,7 +29,7 @@ class FixedHeader extends HTMLElement {
             </style>
             <nav class="container">
                 <ul>
-                    <li><a href="page_landing.html" class="contrast"><strong>GLENDA HANNIBAL</strong></a></li>
+                    <li><a href="index.html" class="contrast"><strong>GLENDA HANNIBAL</strong></a></li>
                 </ul>
                 <ul>
                     <li><a href="page_research.html" class="contrast">Research</a></li>
