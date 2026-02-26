@@ -24,6 +24,8 @@ class FixedHeader extends HTMLElement {
                     color: #b71540;
                 }
                 mark {
+                    float: right;
+                    margin-left: 0.3rem;
                     opacity: .3;
                 }
             </style>
