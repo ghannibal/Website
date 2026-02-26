@@ -21,7 +21,7 @@ class FixedHeader extends HTMLElement {
                     border-radius: 2rem;
                 }
                 c {
-                    color: #b71540;
+                    color: #000000;
                 }
                 mark {
                     opacity: .3;
