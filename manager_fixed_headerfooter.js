@@ -10,18 +10,18 @@ class FixedHeader extends HTMLElement {
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-            <title>G. Hannibal</title>
+            <title>Dr. Hannibal</title>
             <style>
                 body {
-                    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+                    background: #ffffff;
                     background-attachment: fixed;
                 }
                 img {
-                    border: 1px solid #b71540;
+                    border: 1px solid #000000;
                     border-radius: 2rem;
                 }
                 c {
-                    color: #b71540;
+                    color: #4682B4;
                 }
                 mark {
                     float: right;
@@ -31,7 +31,7 @@ class FixedHeader extends HTMLElement {
             </style>
             <nav class="container">
                 <ul>
-                    <li><a href="index.html" class="contrast"><strong>GLENDA HANNIBAL</strong></a></li>
+                    <li><a href="index.html" class="contrast"><strong>DR. HANNIBAL</strong></a></li>
                 </ul>
                 <ul>
                     <li><a href="research.html" class="contrast">Research</a></li>

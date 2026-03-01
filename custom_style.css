@@ -22,7 +22,7 @@
 }
 
 a {
-    --pico-text-decoration: none;
+    --pico-text-decoration: #000080;
 }
 
 a.secondary,
@@ -69,7 +69,7 @@ details>summary::-webkit-details-marker
     /*Primary Color Style*/
     --pico-background-color: none;
     --pico-color: #000000;
-    --pico-h1-color: #b71540;
+    --pico-h1-color: #000080;
     --pico-h2-color: #000000;
     --pico-h3-color: #000000;
     --pico-h4-color: #ffffff;
@@ -78,23 +78,23 @@ details>summary::-webkit-details-marker
     --pico-mark-background-color: #81bedb;
     --pico-mark-color: #000000;
     --pico-code-kbd-background-color: #ffffff;
-    --pico-code-kbd-color: #b71540;
-    --pico-ins-color: #2E6F40;
-    --pico-del-color: rgb(205.5, 126, 123);
-    --pico-muted-color: #b71540;
+    --pico-code-kbd-color: #4682B4;
+    --pico-ins-color: none;
+    --pico-del-color: none;
+    --pico-muted-color: none;
     /*Primary Color Style*/
-    --pico-primary: #b71540;
+    --pico-primary: #4682B4;
     --pico-primary-border: none;
     --pico-primary-underline: none;
-    --pico-primary-hover: #b71540;
+    --pico-primary-hover: #4682B4;
     --pico-primary-hover-border: none;
     --pico-primary-hover-underline: none;
     /*Secondary Color Style*/
-    --pico-secondary: #b71540;
+    --pico-secondary: #4682B4;
     --pico-secondary-background: #000000;
     --pico-secondary-border: none;
     --pico-secondary-underline: none;
-    --pico-secondary-hover: #b71540;
+    --pico-secondary-hover: #4682B4;
     --pico-secondary-hover-background: none;
     --pico-secondary-hover-border: none;
     --pico-secondary-hover-underline: none;
@@ -115,20 +115,20 @@ details>summary::-webkit-details-marker
     --pico-button-box-shadow: none;
     --pico-button-hover-box-shadow: none;
     /*Card Style*/
-    --pico-card-background-color: #0077b3;
+    --pico-card-background-color: #F5F5F5;
     --pico-card-border-color: var(--pico-muted-border-color);
     --pico-card-box-shadow: var(--pico-box-shadow);
-    --pico-card-sectioning-background-color: rgb(204, 204, 204);
+    --pico-card-sectioning-background-color: rgb(245, 245, 245);
     /*Code Style*/
     --pico-code-background-color: rgb(245, 245, 245);
     --pico-code-color: #000000;
     /*Form Element Style*/
     --pico-form-element-background-color: rgb(245, 245, 245);
-    --pico-form-element-selected-background-color: #cccccc;
+    --pico-form-element-selected-background-color: #F5F5F5;
     --pico-form-element-border-color: none;
     --pico-form-element-color: #000000;
     --pico-form-element-placeholder-color: #000000;
-    --pico-form-element-active-background-color: rgb(245, 245, 245);
+    --pico-form-element-active-background-color: none;
     --pico-form-element-active-border-color: none;
     --pico-form-element-focus-color: none;
     --pico-form-element-disabled-opacity: 0.5;
