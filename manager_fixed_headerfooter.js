@@ -31,7 +31,7 @@ class FixedHeader extends HTMLElement {
             </style>
             <nav class="container">
                 <ul>
-                    <li><a href="index.html" class="contrast"><strong>DR. HANNIBAL</strong></a></li>
+                    <li><a href="index.html" class="contrast"><strong>DR. GLENDA HANNIBAL</strong></a></li>
                 </ul>
                 <ul>
                     <li><a href="research.html" class="contrast">Research</a></li>
@@ -50,11 +50,9 @@ class FixedFooter extends HTMLElement {
         this.innerHTML = `
             <footer class="container">
             <hr style="height:0.5px;border-width:0;color:white;background-color:black">
-                <small>
-                <p>
-                    &copy; 2026 Glenda Hannibal
-                </p>
-                </small>
+            <p style="float: right">
+                <small>&copy; 2026 Glenda Hannibal</small>
+            <p>
             </footer>
                 `
     }
