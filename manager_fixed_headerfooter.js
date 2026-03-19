@@ -10,7 +10,7 @@ class FixedHeader extends HTMLElement {
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-            <title>Dr. Hannibal</title>
+            <title>Dr. Glenda Hannibal</title>
             <style>
                 body {
                     background: #ffffff;
@@ -31,14 +31,14 @@ class FixedHeader extends HTMLElement {
             </style>
             <nav class="container">
                 <ul>
-                    <li><a href="index.html" class="contrast"><strong>DR. HANNIBAL</strong></a></li>
+                    <li><a href="index.html" class="contrast"><strong>DR. GLENDA HANNIBAL</strong></a></li>
                 </ul>
                 <ul>
                     <li><a href="research.html" class="contrast">Research</a></li>
                     <li><a href="projects.html" class="contrast">Projects</a></li>
                     <li><a href="publications.html" class="contrast">Publications</a></li>
                     <li><a href="teaching.html" class="contrast">Teaching</a></li>
-                    <li><a href="updates.html" class="contrast">Updates</a></li>
+                    <li><a href="news.html" class="contrast">News</a></li>
                     <li><a href="bio.html" class="contrast">Bio</a></li>
                 </ul>
             </nav>
