@@ -10,7 +10,7 @@ class FixedHeader extends HTMLElement {
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-            <link rel="shortcut icon" href="http://glendahannibal/favicon.ico" />
+            <link rel=”apple-touch-icon” href=”favicon.png”>
             <title>Dr. Glenda Hannibal</title>
             <style>
                 body {
