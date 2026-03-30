@@ -77,8 +77,8 @@ details>summary::-webkit-details-marker
     --pico-h6-color: #ffffff;
     --pico-mark-background-color: #81bedb;
     --pico-mark-color: #000000;
-    --pico-code-kbd-background-color: #ffffff;
-    --pico-code-kbd-color: #4682B4;
+    --pico-code-kbd-background-color: #ffff00;
+    --pico-code-kbd-color: #000000;
     --pico-ins-color: none;
     --pico-del-color: none;
     --pico-muted-color: none;
