@@ -14,7 +14,7 @@ class FixedHeader extends HTMLElement {
             <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
             <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
             <link rel="manifest" href="/site.webmanifest">
-            <title>Dr. Glenda Hannibal</title>
+            <title>Dr. Hannibal</title>
             <style>
                 body {
                     background: #ffffff;
@@ -35,7 +35,7 @@ class FixedHeader extends HTMLElement {
             </style>
             <nav class="container">
                 <ul>
-                    <li><a href="index.html" class="contrast"><strong>DR. GLENDA HANNIBAL</strong></a></li>
+                    <li><a href="index.html" class="contrast"><strong>Glenda Hannibal</strong></a></li>
                 </ul>
                 <ul>
                     <li><a href="research.html" class="contrast">Research</a></li>
