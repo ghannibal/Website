@@ -21,8 +21,7 @@ class FixedHeader extends HTMLElement {
                     background-attachment: fixed;
                 }
                 img {
-                    border: 1px solid #000000;
-                    border-radius: 2rem;
+                    border-radius: 0rem;
                 }
                 c {
                     color: #4682B4;
