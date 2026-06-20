@@ -42,7 +42,7 @@ class FixedHeader extends HTMLElement {
                     <li><a href="susai.html" class="contrast">SUSAI</a></li>
                     <li><a href="publications.html" class="contrast">Publications</a></li>
                     <li><a href="teaching.html" class="contrast">Teaching</a></li>
-                    <li><a href="news.html" class="contrast">Highlights</a></li>
+                    <!-- <li><a href="news.html" class="contrast">Highlights</a></li> -->
                     <li><a href="bio.html" class="contrast">Bio</a></li>
                 </ul>
             </nav>
