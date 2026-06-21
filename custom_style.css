@@ -19,6 +19,9 @@
     --pico-typography-spacing-vertical: 1.5rem;
     --pico-form-element-spacing-vertical: 0.5rem;
     --pico-form-element-spacing-horizontal: 0.5rem;
+    /*Grid Style*/
+    --pico-grid-column-gap: 0px;
+    --pico-grid-row-gap: 0px;
 }
 
 a {
