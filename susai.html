@@ -8,6 +8,32 @@
     <fixed-header></fixed-header>
 </head>
 
+<style>
+    .team-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px 40px;
+    }
+
+    .person {
+        display: flex;
+        align-items: flex-start;
+        gap: 20px;
+        flex: 0 1 calc(50% - 20px);
+        box-sizing: border-box;
+        min-width: 320px;
+    }
+
+    .person img {
+        width: 100px;
+        height: 100px;
+        flex-shrink: 0;
+        object-fit: cover;
+        object-position: center top;
+        border-radius: 50px;
+    }
+</style>
+
 <body>
     <header></header>
     <main class="container">
@@ -15,21 +41,28 @@
             <h1>
                 Suspicious of Artificial Intelligence
             </h1>
-            <img src="SUSAI_logo.png" style="width: 150px; height: 50px; margin-left: auto;">
+            <img src="images/SUSAI_logo.png" style="width: 150px; height: 50px; margin-left: auto;">
         </div>
         <p>
-            Extensive theoretical and empirical work has enabled the human-AI interaction (HAII) research community to
-            understand what factors lead people to trust AI. In current research, trust in Artificial Intelligence (AI)
-            is strongly encouraged because the benefits of trusting are often overemphasized. This bias toward optimism
-            comes at the expense of a more balanced and complete perspective on the nature and effects of trust, because
+            Extensive theoretical and empirical work has enabled the human-AI interaction (HAII) research community
+            to
+            understand what factors lead people to trust AI. In current research, trust in Artificial Intelligence
+            (AI)
+            is strongly encouraged because the benefits of trusting are often overemphasized. This bias toward
+            optimism
+            comes at the expense of a more balanced and complete perspective on the nature and effects of trust,
+            because
             it is also important to consider the so-called “dark side”. Much less effort is devoted to developing a
-            clear understanding of mistrust and distrust, even though research has already shown that AI is also used
+            clear understanding of mistrust and distrust, even though research has already shown that AI is also
+            used
             for harmful and criminal activities.
             <br>
             <br>
             The topic of mistrust and distrust in AI is sparsely explored in the
-            specific context of HAII. The proposed Suspicious of Artificial Intelligence (SUSAI) project aims to fill
-            this research gap by investigating why people are unwilling to trust AI by focusing on the broader notion of
+            specific context of HAII. The proposed Suspicious of Artificial Intelligence (SUSAI) project aims to
+            fill
+            this research gap by investigating why people are unwilling to trust AI by focusing on the broader
+            notion of
             mistrust. Using the methods of a literature review and expert interviews, the SUSAI project intends to
             develop a conceptual model of mistrust in AI applicable to everyday life HAII contexts.
         </p>
@@ -38,81 +71,83 @@
             <strong>Team Members</strong>
             <br>
             <br>
-            Dr. Glenda Hannibal, Alice Chumova, Linda Schmidt, Gabriela Beltrão, and Iuliia Paramonova.
-            <br>
-            <br>
-            <em>[more info coming soon]</em>
         </p>
-        <!--<div style="display: flex; align-items: top; gap: 20px;">
-            <img src="" style="width: 150px; flex-shrink: 0;">
-            <p>
-                <strong>Dr. Glenda Hannibal</strong>
-                <br>
-                <em>Principal Investigator</em>
-                <br>
-                <br>
-                <br>
-            </p>
+        <div class="team-grid">
+            <div class="person">
+                <img src="images/photo_alice.jpg" alt="Alice Chumova" style="object-position: center 20%;">
+                <p>
+                    <strong>Alice Chumova</strong>
+                    <br>
+                    <em>Student Assistant</em>
+                    <br><br>
+                    Alice holds a Bachelor's degree in Psychology from the University of
+                    Malta and she is currently pursuing a Master's degree in
+                    Human-Computer Interaction at the University of Salzburg.
+                    Her research interests includes mistrust in AI,
+                    user-centered design, and human-AI interaction.
+                </p>
+            </div>
+            <div class="person">
+                <img src="images/photo_linda.jpeg" alt="Linda Schmidt" style="object-position: center 20%;">
+                <p>
+                    <strong>Linda Schmidt</strong>
+                    <br>
+                    <em>Student Assistant</em>
+                    <br><br>
+                    Linda is currently completing her bachelor's degree in Computer
+                    Science and in Psychology at the University of Salzburg. Her research
+                    interests include Human-AI Interaction, trust in AI, bias and
+                    fairness, and the intersection of technology and psychology.
+                </p>
+            </div>
+            <div class="person">
+                <img src="images/photo_gabriela.jpg" alt="Gabriela Beltrão">
+                <p>
+                    <strong>Gabriela Beltrão</strong>
+                    <br>
+                    <em>External Collaborator</em>
+                    <br><br>
+                    Gabriela is a Junior Research Fellow and a PhD candidate at
+                    the School of Digital Technologies, Tallinn
+                    University. She holds a master's degree in Human-Computer
+                    Interaction and in Arts, Culture, and Society. Her research examines how
+                    cultural backgrounds shape trust in technology by drawing on theory and approaches
+                    from human-computer interaction and the social sciences.
+                </p>
+            </div>
+            <div class="person">
+                <img src="images/photo_julia.png" alt="Julia Paramonova">
+                <p>
+                    <strong>Julia Paramonova</strong>
+                    <br>
+                    <em>External Collaborator</em>
+                    <br><br>
+                    Julia Paramonova is a PhD candidate and a Junior Researcher at
+                    the School of Digital Technologies, Tallinn University. She holds a
+                    Master's degree in Computer Science and Engineering with a specialization in
+                    Human-Computer Interaction. Her research focuses on developing and
+                    applying innovative research and design methodologies to build
+                    trustworthy interactive systems that support appropriate trust
+                    perception.
+                    <br><br>
+                    Julia is happy to connect via
+                    <a href="https://www.linkedin.com/in/juliia-paramonova/" target="_blank">LinkedIn</a>.
+                </p>
+            </div>
+            <div class="person">
+                <img src="images/photo_glenda.jpg" alt="Glenda Hannibal">
+                <p>
+                    <strong>Dr. Glenda Hannibal</strong>
+                    <br>
+                    <em>Principal Investigator</em>
+                    <br><br>
+                    Glenda is a Postdosctoral Researcher in the EXDIGIT project at the University of Salzburg. She holds
+                    a Doctorate in Computer Science from TU Wien whith her dissertation on interpersonal trust in
+                    human-robot interaction. Her research uncover the intersections of trust, explnations, authenticity,
+                    understanding, and vulnerability in everyday human-AI interaction.
+                </p>
+            </div>
         </div>
-        <br>
-        <div style="display: flex; align-items: top; gap: 20px;">
-            <img src="" style="width: 150px; flex-shrink: 0;">
-            <p>
-                <strong>Alice Chumova</strong>
-                <br>
-                <em>Student Assistant</em>
-                <br>
-                <br>
-                I completed my Bachelor's degree in Psychology at the University of
-                Malta, and I am currently pursuing my Master's degree in
-                Human-Computer Interaction at the University of Salzburg.
-                I am deeply interested in researching mistrust in AI,
-                user-centered design and human-AI interaction. I'm also really
-                passionate about exploring how AI and robotics shape people's
-                perceptions and understanding of the world around them.
-            </p>
-        </div>
-        <br>
-        <div style="display: flex; align-items: top; gap: 20px;">
-            <img src="" style="width: 150px; flex-shrink: 0;">
-            <p>
-                <strong>Linda Schmidt</strong>
-                <br>
-                <em>Student Assistant</em>
-                <br>
-                <br>
-            </p>
-        </div>
-        <br>
-        <div style="display: flex; align-items: top; gap: 20px;">
-            <img src="" style="width: 150px; flex-shrink: 0;">
-            <p>
-                <strong>Gabriela Beltrão</strong>
-                <br>
-                <em>External Collaborator</em>
-                <br>
-                <br>
-                I am a Junior Research Fellow and PhD candidate at the School of Digital Technologies, Tallinn
-                University. My current work investigates the interplay between cultural aspects and trust in technology.
-            </p>
-        </div>
-        <br>
-        <div style="display: flex; align-items: top; gap: 20px;">
-            <img src="" style="width: 150px; flex-shrink: 0;">
-            <p>
-                <strong>Iuliia Paramonova</strong>
-                <br>
-                <em>External Collaborator</em>
-                <br>
-                <br>
-                I am a designer and a Junior Research Fellow and PhD candidate at the School of Digital Technologies,
-                Tallinn
-                University. My research interest is designing for trust in technologies.
-                <br>
-                <br>
-                Website: <a href="https://iuparam.eu/" target="_blank">https://iuparam.eu</a>
-            </p>
-        </div>-->
         <hr style="height:0.5px;border-width:0;color:white;background-color:lightgray">
         <p>
             <strong>Project News</strong>

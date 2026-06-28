@@ -27,6 +27,7 @@ class FixedHeader extends HTMLElement {
                     float: right;
                     margin-left: 0.3rem;
                     opacity: .3;
+                    color: #000000;
                 }
             </style>
             <nav class="container">

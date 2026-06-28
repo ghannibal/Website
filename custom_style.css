@@ -25,7 +25,7 @@
 }
 
 a {
-    --pico-text-decoration: #000080;
+    --pico-text-decoration: none;
 }
 
 a.secondary,
@@ -65,10 +65,10 @@ details>summary::-webkit-details-marker
     display: none;
 }
 
-/* Dark color scheme (Forced) */
-/* Enabled if forced with data-theme="dark" */
-[data-theme="dark"] {
-    color-scheme: light;
+/* Light color scheme (Default) */
+/* Can be forced with data-theme="light" */
+[data-theme="light"],
+:root:not([data-theme="dark"]) {
     /*Primary Color Style*/
     --pico-background-color: none;
     --pico-color: #000000;
@@ -81,7 +81,7 @@ details>summary::-webkit-details-marker
     --pico-mark-background-color: #81bedb;
     --pico-mark-color: #000000;
     --pico-code-kbd-background-color: #ffff00;
-    --pico-code-kbd-color: #000000;
+    --pico-code-kbd-color: #ffffff;
     --pico-ins-color: none;
     --pico-del-color: none;
     --pico-muted-color: none;
